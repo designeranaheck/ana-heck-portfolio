@@ -23,7 +23,6 @@ import { LanguageService } from '../../shared/i18n/language.service';
 
 const COUNT_DURATION = 1200;
 const TARGET_YEARS = 15;
-const TARGET_PROJECTS = 40;
 const PHOTO_CROSSFADE_INTERVAL = 4500;
 
 @Component({
@@ -75,9 +74,7 @@ export class Home implements AfterViewInit, OnDestroy {
   protected readonly activePhoto = signal<0 | 1>(0);
 
   private readonly years = signal(0);
-  private readonly deliveredProjects = signal(0);
   protected readonly yearsDisplay = computed(() => `+${this.years()} ${this.i18n.t('heroYearsSuffix')}`);
-  protected readonly projectsDisplay = computed(() => `${this.deliveredProjects()}+`);
 
   private readonly stats = viewChild.required<ElementRef<HTMLElement>>('stats');
   private readonly experienceTrack = viewChild.required<ElementRef<HTMLElement>>('experienceTrack');
@@ -90,7 +87,6 @@ export class Home implements AfterViewInit, OnDestroy {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (reduceMotion || typeof IntersectionObserver === 'undefined') {
       this.years.set(TARGET_YEARS);
-      this.deliveredProjects.set(TARGET_PROJECTS);
     } else {
       this.observer = new IntersectionObserver(
         (entries) => {
@@ -133,7 +129,6 @@ export class Home implements AfterViewInit, OnDestroy {
       const progress = Math.min(1, (now - start) / COUNT_DURATION);
       const eased = 1 - Math.pow(1 - progress, 3);
       this.years.set(Math.round(eased * TARGET_YEARS));
-      this.deliveredProjects.set(Math.round(eased * TARGET_PROJECTS));
       if (progress < 1) {
         this.frame = requestAnimationFrame(step);
       }

@@ -15,7 +15,6 @@ export const UI_TEXT = {
   heroCtaProjects: { pt: 'Ver projetos', en: 'View work' },
   heroCtaContact: { pt: 'Falar comigo', en: 'Get in touch' },
   heroStatYearsLabel: { pt: 'de experiência em design', en: 'of experience in design' },
-  heroStatProjectsLabel: { pt: 'projetos entregues, do MVP ao redesign', en: 'projects shipped, from MVP to redesign' },
   heroStatSeniorValue: { pt: 'Sênior', en: 'Senior' },
   heroStatSeniorLabel: { pt: 'atuando com discovery e design system', en: 'working across discovery and design systems' },
   heroYearsSuffix: { pt: 'anos', en: 'years' },
