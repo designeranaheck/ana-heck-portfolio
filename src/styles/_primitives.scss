@@ -1,0 +1,91 @@
+.kicker {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.kicker--accent {
+  color: var(--accent);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 1px var(--text);
+  font-size: 14px;
+  color: var(--text);
+  transition: box-shadow 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    color: var(--text);
+    box-shadow: inset 0 0 0 1px var(--accent-hover);
+  }
+}
+
+.btn-outline--accent {
+  box-shadow: inset 0 0 0 1px var(--accent);
+  color: var(--accent);
+
+  &:hover {
+    color: var(--accent-hover);
+    box-shadow: inset 0 0 0 1px var(--accent-hover);
+  }
+}
+
+.section-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: clamp(32px, 5vw, 58px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  text-wrap: pretty;
+}
+
+.section-title--sm {
+  font-size: clamp(28px, 4vw, 46px);
+}
+
+.section-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.back-to-top {
+  align-self: flex-end;
+  font-size: 13px;
+  color: var(--accent);
+  opacity: 0.85;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.page-header {
+  background: var(--hero-gradient);
+  padding: clamp(60px, 10vw, 120px) var(--gutter) clamp(48px, 8vw, 72px);
+}
+
+.back-link {
+  font-size: 14px;
+  color: var(--text);
+  opacity: 0.75;
+
+  &:hover {
+    color: var(--text);
+    opacity: 1;
+  }
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

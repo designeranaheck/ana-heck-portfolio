@@ -1,0 +1,20 @@
+<header class="site-header">
+  <a class="brand" routerLink="/">
+    <span class="brand__name">Ana Heck</span>
+    <span class="brand__role">{{ i18n.t('brandRole') }}</span>
+  </a>
+
+  <nav class="nav">
+    <a routerLink="/" routerLinkActive="is-active" [routerLinkActiveOptions]="{ exact: true }">
+      {{ i18n.t('navSobre') }}
+    </a>
+    <a routerLink="/portfolio" [class.is-active]="isPortfolioActive()">{{ i18n.t('navPortfolio') }}</a>
+    <a class="nav__cta" [routerLink]="['/']" fragment="contato">{{ i18n.t('navCta') }}</a>
+    <button
+      type="button"
+      class="lang-switch"
+      [attr.aria-label]="i18n.t('langSwitchAria')"
+      (click)="i18n.setLang(i18n.lang() === 'pt' ? 'en' : 'pt')"
+    >{{ i18n.lang() === 'pt' ? 'EN' : 'PT' }}</button>
+  </nav>
+</header>

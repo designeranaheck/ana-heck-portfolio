@@ -1,0 +1,152 @@
+<app-site-header />
+
+<main>
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <img
+        class="hero__bg-img"
+        [class.is-active]="activePhoto() === 0"
+        src="/assets/hero/video-a.png"
+        alt=""
+      />
+      <img
+        class="hero__bg-img"
+        [class.is-active]="activePhoto() === 1"
+        src="/assets/hero/video-b.png"
+        alt=""
+      />
+      <div class="hero__scrim"></div>
+    </div>
+
+    <div class="hero__badge">
+      <span class="hero__badge-dot" aria-hidden="true"></span>
+      <span>{{ i18n.t('heroBadge') }}</span>
+    </div>
+
+    <div class="hero__bottom">
+      <h1 class="hero__giant-title">{{ i18n.t('heroTitle') }}</h1>
+      <p class="hero__lead">{{ i18n.t('heroLead') }}</p>
+      <div class="hero__actions">
+        <a class="btn-outline btn-outline--accent" routerLink="/portfolio">{{ i18n.t('heroCtaProjects') }}</a>
+        <a class="btn-outline" [routerLink]="['/']" fragment="contato">{{ i18n.t('heroCtaContact') }}</a>
+      </div>
+
+      <div #stats class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-corner" aria-hidden="true"></span>
+          <span class="hero__stat-value">{{ yearsDisplay() }}</span>
+          <span class="hero__stat-label">{{ i18n.t('heroStatYearsLabel') }}</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-corner" aria-hidden="true"></span>
+          <span class="hero__stat-value">{{ projectsDisplay() }}</span>
+          <span class="hero__stat-label">{{ i18n.t('heroStatProjectsLabel') }}</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-corner" aria-hidden="true"></span>
+          <span class="hero__stat-value">{{ i18n.t('heroStatSeniorValue') }}</span>
+          <span class="hero__stat-label">{{ i18n.t('heroStatSeniorLabel') }}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content" appReveal>
+      <span class="kicker kicker--accent">{{ i18n.t('aboutKicker') }}</span>
+      <h2 class="about__title">{{ i18n.t('aboutTitle') }}</h2>
+      <p class="about__lead">{{ i18n.t('aboutLead') }}</p>
+    </div>
+    <div class="about__photo" appReveal>
+      <div class="about__photo-primary">
+        <img src="/assets/about/about.jpeg" [alt]="i18n.t('aboutPhotoPrimaryAlt')" />
+      </div>
+      <div class="about__photo-secondary">
+        <img src="/assets/about/about_2.jpeg" [alt]="i18n.t('aboutPhotoSecondaryAlt')" />
+      </div>
+    </div>
+  </section>
+
+  <section class="experiences">
+    <div class="experiences__head">
+      <div class="section-intro" appReveal>
+        <span class="kicker kicker--accent">{{ i18n.t('experiencesKicker') }}</span>
+        <h2 class="section-title section-title--sm">{{ i18n.t('experiencesTitle') }}</h2>
+      </div>
+      <div class="experiences__controls">
+        <button type="button" (click)="scrollExperiences(-1)" [attr.aria-label]="i18n.t('experiencesPrevAria')">
+          ←
+        </button>
+        <button type="button" (click)="scrollExperiences(1)" [attr.aria-label]="i18n.t('experiencesNextAria')">
+          →
+        </button>
+      </div>
+    </div>
+
+    <div #experienceTrack class="experiences__track no-scrollbar">
+      @for (experience of experiences(); track experience.role) {
+        <app-experience-card class="experiences__card" [experience]="experience" />
+      }
+    </div>
+
+    <a class="back-to-top" href="#" appScrollToTop>{{ i18n.t('backToTop') }}</a>
+  </section>
+
+  <section class="formation">
+    <div class="section-intro" appReveal>
+      <span class="kicker kicker--accent">{{ i18n.t('formationKicker') }}</span>
+      <h2 class="section-title section-title--sm">{{ i18n.t('formationTitle') }}</h2>
+    </div>
+    <ul class="formation__timeline">
+      @for (item of education(); track $index) {
+        <li class="formation__col" appReveal [style.transition-delay.ms]="$index * 60">
+          <span class="formation__period">{{ item.period }}</span>
+          <span class="formation__line" aria-hidden="true">
+            <span class="formation__dot"></span>
+          </span>
+          <div class="formation__main">
+            <span class="formation__degree">{{ item.degree }}</span>
+            <span class="formation__institution">{{ item.institution }}</span>
+          </div>
+        </li>
+      }
+    </ul>
+  </section>
+
+  <section class="certifications">
+    <div class="section-intro" appReveal>
+      <span class="kicker kicker--accent">{{ i18n.t('certificationsKicker') }}</span>
+      <h2 class="section-title section-title--sm">{{ i18n.t('certificationsTitle') }}</h2>
+    </div>
+    <ul class="certifications__list">
+      @for (item of certifications(); track $index) {
+        <li class="certifications__item">
+          <span class="certifications__title">{{ item.title }}</span>
+          <span class="certifications__period">{{ item.year }}</span>
+        </li>
+      }
+    </ul>
+  </section>
+
+  <section class="testimonials">
+    <div class="section-intro" appReveal>
+      <span class="kicker kicker--accent">{{ i18n.t('testimonialsKicker') }}</span>
+      <h2 class="section-title section-title--sm">{{ i18n.t('testimonialsTitle') }}</h2>
+    </div>
+    <div class="testimonials__grid">
+      @for (item of testimonials(); track item.name) {
+        <article class="testimonial-card" appReveal [style.transition-delay.ms]="$index * 80">
+          <p class="testimonial-card__quote">"{{ item.quote }}"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__meta">
+              <span class="testimonial-card__name">{{ item.name }}</span>
+              <span class="testimonial-card__role">{{ item.role }}</span>
+            </div>
+          </div>
+        </article>
+      }
+    </div>
+  </section>
+</main>
+
+<app-site-footer />

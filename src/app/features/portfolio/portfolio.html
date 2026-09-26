@@ -1,0 +1,39 @@
+<app-site-header />
+
+<main>
+  <header class="page-header portfolio__header">
+    <a class="back-link" routerLink="/">{{ i18n.t('backToHome') }}</a>
+    <span class="kicker kicker--accent">{{ i18n.t('portfolioKicker') }}</span>
+    <h1 class="portfolio__title">Ana Heck</h1>
+    <p class="portfolio__lead">{{ i18n.t('portfolioLead') }}</p>
+  </header>
+
+  <div class="portfolio__panel">
+    <div class="portfolio__grid">
+      @for (article of articles(); track article.slug; let i = $index) {
+        <a
+          class="article-card"
+          [routerLink]="['/artigos', article.slug]"
+          appReveal
+          [style.transition-delay.ms]="i % 3 * 80"
+        >
+          <div class="article-card__cover">
+            <img [src]="article.cover" [alt]="article.listTitle" loading="lazy" decoding="async" />
+          </div>
+          <div class="article-card__body">
+            <div class="article-card__head">
+              <span class="article-card__title">{{ article.listTitle }}</span>
+              <span class="article-card__date">{{ article.listDate }}</span>
+            </div>
+            <p class="article-card__excerpt">{{ article.listExcerpt }}</p>
+            <div class="article-card__tags">
+              <span class="tag">{{ article.kicker }}</span>
+            </div>
+          </div>
+        </a>
+      }
+    </div>
+  </div>
+</main>
+
+<app-site-footer />

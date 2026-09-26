@@ -1,0 +1,20 @@
+<footer class="site-footer">
+  <app-contact-section />
+
+  <div class="site-footer__meta">
+    <div class="site-footer__social">
+      <a href="https://www.linkedin.com/in/anaheckux/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://medium.com/@anaheckk" target="_blank" rel="noopener">Medium</a>
+      <a href="https://www.behance.net/anaaheck" target="_blank" rel="noopener">Behance</a>
+    </div>
+    <span class="site-footer__role">{{ roleLine() }}</span>
+  </div>
+
+  <div class="site-footer__bottom">
+    <span class="site-footer__copyright">© {{ year }} Ana Heck</span>
+    <a class="site-footer__totop" href="#" appScrollToTop>
+      <span class="site-footer__totop-label">{{ i18n.t('footerTopLabel') }}</span>
+      <span class="site-footer__totop-circle" aria-hidden="true">↑</span>
+    </a>
+  </div>
+</footer>

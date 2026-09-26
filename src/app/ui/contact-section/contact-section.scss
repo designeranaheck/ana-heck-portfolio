@@ -1,0 +1,75 @@
+:host {
+  display: block;
+}
+
+.contact__card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact__kicker {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.contact__title {
+  margin: 0;
+  max-width: 760px;
+  font-weight: 500;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 24px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.contact__channel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.contact__label {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--accent);
+}
+
+.contact__hint {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.contact__value {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text);
+
+  &:hover {
+    color: var(--accent-hover);
+  }
+}

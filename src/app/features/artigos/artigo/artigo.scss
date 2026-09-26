@@ -1,0 +1,135 @@
+:host {
+  display: block;
+  background: var(--bg);
+}
+
+.article__intro {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: clamp(48px, 8vw, 72px) 24px 0;
+}
+
+.article__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px 0 32px;
+}
+
+.article__title {
+  margin: 0;
+  font-weight: 600;
+  font-size: clamp(30px, 5vw, 42px);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-wrap: pretty;
+}
+
+.article__meta {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.article__coauthors {
+  font-size: 13px;
+  color: var(--accent);
+}
+
+.article__cover-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.article__cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+.article__cover-caption {
+  font-size: 13px;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.article__body {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: clamp(40px, 6vw, 56px) 24px clamp(60px, 10vw, 120px);
+
+  p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.75;
+    opacity: 0.92;
+    text-wrap: pretty;
+  }
+
+  h3 {
+    margin: 40px 0 14px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  ul {
+    margin: 0 0 20px;
+    padding-left: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  li {
+    font-size: 17px;
+    line-height: 1.6;
+    opacity: 0.92;
+    text-wrap: pretty;
+  }
+}
+
+.article__figure {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  figcaption {
+    font-size: 13px;
+    opacity: 0.6;
+    text-align: center;
+  }
+}
+
+.article__more {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(233, 233, 237, 0.15);
+
+  a {
+    font-size: 15px;
+    color: var(--text);
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+.article__more-label {
+  opacity: 0.6;
+}

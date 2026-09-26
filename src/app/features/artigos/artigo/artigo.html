@@ -1,0 +1,61 @@
+<app-site-header />
+
+@if (article(); as article) {
+  <main class="article">
+    <div class="article__intro">
+      <a class="back-link" routerLink="/portfolio">{{ i18n.t('backToPortfolio') }}</a>
+      <div class="article__heading">
+        <span class="kicker kicker--accent">{{ article.kicker }}</span>
+        <h1 class="article__title">{{ article.title }}</h1>
+        <span class="article__meta">{{ article.meta }}</span>
+        @if (article.coauthors) {
+          <span class="article__coauthors">{{ article.coauthors }}</span>
+        }
+      </div>
+    </div>
+
+    <div class="article__cover-wrap">
+      <img class="article__cover" [src]="article.cover" [alt]="article.coverCaption || article.title" />
+      @if (article.coverCaption) {
+        <span class="article__cover-caption">{{ article.coverCaption }}</span>
+      }
+    </div>
+
+    <div class="article__body">
+      @for (block of article.body; track $index) {
+        @switch (block.kind) {
+          @case ('heading') {
+            <h3>{{ block.text }}</h3>
+          }
+          @case ('paragraph') {
+            <p>{{ block.text }}</p>
+          }
+          @case ('list') {
+            <ul>
+              @for (item of block.items; track $index) {
+                <li>{{ item }}</li>
+              }
+            </ul>
+          }
+          @case ('image') {
+            <figure class="article__figure">
+              <img [src]="block.src" [alt]="block.caption || ''" loading="lazy" />
+              @if (block.caption) {
+                <figcaption>{{ block.caption }}</figcaption>
+              }
+            </figure>
+          }
+        }
+      }
+
+      <div class="article__more">
+        <span class="kicker article__more-label">{{ i18n.t('otherArticles') }}</span>
+        @for (other of otherArticles(); track other.slug) {
+          <a [routerLink]="['/artigos', other.slug]">{{ other.title }}</a>
+        }
+      </div>
+    </div>
+  </main>
+}
+
+<app-site-footer />

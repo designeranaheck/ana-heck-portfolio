@@ -1,0 +1,22 @@
+// Tema da empresa: sobrescreve as variáveis do Bootstrap antes de importá-lo.
+@import 'bootstrap/scss/functions';
+
+$body-bg: #161826;
+$body-color: #e9e9ed;
+$font-family-sans-serif: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, sans-serif;
+$primary: #9184d9;
+$link-color: #9184d9;
+$link-hover-color: #beb6e6;
+$link-decoration: none;
+$link-hover-decoration: none;
+$grid-gutter-width: 40px;
+$enable-shadows: false;
+$enable-gradients: false;
+
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/utilities';
