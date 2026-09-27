@@ -24,9 +24,9 @@ export const EXPERIENCES: Experience[] = [
     badge: 'Atual',
     badgeEn: 'Current',
     description:
-      'Atuo de ponta a ponta no ciclo de design de produtos para gestão pública — Product Discovery, UX Research, prototipação e evolução de funcionalidades — em parceria direta com Produto e Engenharia, funcionando como ponte entre design e desenvolvimento para garantir consistência entre o que é projetado e o que é entregue. Também exploro o uso de Inteligência Artificial no processo de design, com Claude Design e Claude Code, para prototipar fluxos de design-to-code e agilizar a validação e o handoff entre design e desenvolvimento.',
+      'Atuo de ponta a ponta no ciclo de design de produtos para gestão pública, Product Discovery, UX Research, prototipação e evolução de funcionalidades, em parceria direta com Produto e Engenharia, funcionando como ponte entre design e desenvolvimento para garantir consistência entre o que é projetado e o que é entregue. Também exploro o uso de Inteligência Artificial no processo de design, com Claude Design e Claude Code, para prototipar fluxos de design-to-code e agilizar a validação e o handoff entre design e desenvolvimento.',
     descriptionEn:
-      "I work end-to-end on the design of products for public administration — Product Discovery, UX Research, prototyping and feature evolution — partnering directly with Product and Engineering, acting as the bridge between design and development to keep what's designed consistent with what ships. I'm also exploring AI in the design process, using Claude Design and Claude Code to prototype design-to-code flows and speed up validation and handoff between design and development.",
+      "I work end-to-end on the design of products for public administration, Product Discovery, UX Research, prototyping and feature evolution, partnering directly with Product and Engineering, acting as the bridge between design and development to keep what's designed consistent with what ships. I'm also exploring AI in the design process, using Claude Design and Claude Code to prototype design-to-code flows and speed up validation and handoff between design and development.",
     logo: '/assets/experiences/betha_sistemas_logo.jpeg',
   },
   {
@@ -122,9 +122,9 @@ export const EXPERIENCES: Experience[] = [
     badge: 'Anterior',
     badgeEn: 'Previous',
     description:
-      'Criei identidades visuais, campanhas e materiais gráficos — impressos e digitais — para marcas atendidas pela assessoria, incluindo produção editorial, branding e direção de fotografia de produtos.',
+      'Criei identidades visuais, campanhas e materiais gráficos, impressos e digitais, para marcas atendidas pela assessoria, incluindo produção editorial, branding e direção de fotografia de produtos.',
     descriptionEn:
-      'I created visual identities, campaigns and graphic materials — print and digital — for brands served by the agency, including editorial production, branding and product photography direction.',
+      'I created visual identities, campaigns and graphic materials, print and digital, for brands served by the agency, including editorial production, branding and product photography direction.',
     logo: '/assets/experiences/enfatizze_logo.jpg',
   },
   {
@@ -136,9 +136,9 @@ export const EXPERIENCES: Experience[] = [
     badge: 'Anterior',
     badgeEn: 'Previous',
     description:
-      'Integrei o Laboratório de Design da SATC, aplicando Design Thinking, entrevistas e co-criação em projetos reais de branding — incluindo um estudo publicado em conferência internacional de design (IDEMI) — a base do meu olhar estratégico como Product Designer.',
+      'Integrei o Laboratório de Design da SATC, aplicando Design Thinking, entrevistas e co-criação em projetos reais de branding, incluindo um estudo publicado em conferência internacional de design (IDEMI), a base do meu olhar estratégico como Product Designer.',
     descriptionEn:
-      "I was part of SATC's Design Lab, applying Design Thinking, interviews and co-creation to real branding projects — including a study published at an international design conference (IDEMI) — the foundation of my strategic outlook as a Product Designer.",
+      "I was part of SATC's Design Lab, applying Design Thinking, interviews and co-creation to real branding projects, including a study published at an international design conference (IDEMI), the foundation of my strategic outlook as a Product Designer.",
     logo: '/assets/experiences/satceducacao_logo.jpeg',
   },
 ];

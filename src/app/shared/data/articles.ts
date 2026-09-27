@@ -59,7 +59,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Apesar de seguirmos o Design System padrão, conseguimos trazer elementos visuais diferenciados, como o uso de cores — algo que os usuários sempre pediam. Além disso, implementamos visualizações por chips na grid, o que não só melhorou a rapidez na identificação das informações, mas também permitiu usá-los como filtros interativos, virando um novo padrão nas demais telas dos outros módulos.',
+        text: 'Apesar de seguirmos o Design System padrão, conseguimos trazer elementos visuais diferenciados, como o uso de cores, algo que os usuários sempre pediam. Além disso, implementamos visualizações por chips na grid, o que não só melhorou a rapidez na identificação das informações, mas também permitiu usá-los como filtros interativos, virando um novo padrão nas demais telas dos outros módulos.',
       },
       { kind: 'heading', text: 'O que mudou' },
       {
@@ -115,7 +115,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'How we got to the solution' },
       {
         kind: 'paragraph',
-        text: "This project was different because we needed to interview customers to understand what kind of information should be on this new screen and which pain points we'd address. Since it was a completely new feature in Sienge, we had to build everything from scratch, which brought extra challenges — especially in defining the business rules, which are quite complex.",
+        text: "This project was different because we needed to interview customers to understand what kind of information should be on this new screen and which pain points we'd address. Since it was a completely new feature in Sienge, we had to build everything from scratch, which brought extra challenges, especially in defining the business rules, which are quite complex.",
       },
       {
         kind: 'paragraph',
@@ -133,7 +133,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: "Even while following the standard Design System, we managed to bring in some distinctive visual elements, like the use of color — something users had always asked for. We also implemented chip-based views in the grid, which not only made it faster to spot information but also let them work as interactive filters, becoming a new pattern across other modules' screens.",
+        text: "Even while following the standard Design System, we managed to bring in some distinctive visual elements, like the use of color, something users had always asked for. We also implemented chip-based views in the grid, which not only made it faster to spot information but also let them work as interactive filters, becoming a new pattern across other modules' screens.",
       },
       { kind: 'heading', text: 'What changed' },
       {
@@ -179,8 +179,8 @@ export const ARTICLES: Article[] = [
     meta: '10 de março de 2025 · 4 min de leitura',
     metaEn: 'March 10, 2025 · 4 min read',
     cover: '/assets/articles/feedback/01-cover.jpeg',
-    coverCaption: 'Espaço ConstrUX — Construsummit 2024',
-    coverCaptionEn: 'ConstrUX Space — Construsummit 2024',
+    coverCaption: 'Espaço ConstrUX, Construsummit 2024',
+    coverCaptionEn: 'ConstrUX Space, Construsummit 2024',
     listDate: '10 mar 2025',
     listDateEn: 'Mar 10, 2025',
     listTitle: 'Depoimento anônimo: como captamos feedbacks autênticos em um evento presencial',
@@ -225,7 +225,7 @@ export const ARTICLES: Article[] = [
         kind: 'image',
         src: '/assets/articles/feedback/02-mvp.jpeg',
         caption:
-          'MVP 1 — Dinâmica do depoimento anônimo. Na imagem, os materiais utilizados: uma cadeira caso o usuário precisasse se sentar, à frente um X no chão demarcando a posição do cliente, uma luz direta que projetava sombra na parede, ao redor uma cartolina vermelha para direcionar a luz, e na mesa em frente à cadeira um suporte com um celular gravando somente a sombra na parede e a voz do participante.',
+          'MVP 1, Dinâmica do depoimento anônimo. Na imagem, os materiais utilizados: uma cadeira caso o usuário precisasse se sentar, à frente um X no chão demarcando a posição do cliente, uma luz direta que projetava sombra na parede, ao redor uma cartolina vermelha para direcionar a luz, e na mesa em frente à cadeira um suporte com um celular gravando somente a sombra na parede e a voz do participante.',
       },
       {
         kind: 'paragraph',
@@ -247,7 +247,7 @@ export const ARTICLES: Article[] = [
       {
         kind: 'image',
         src: '/assets/articles/feedback/03-video.png',
-        caption: 'Print do vídeo editado — voz e imagem anonimizadas',
+        caption: 'Print do vídeo editado, voz e imagem anonimizadas',
       },
       { kind: 'paragraph', text: 'Entre os principais aprendizados:' },
       {
@@ -261,7 +261,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'Mas o que difere de um questionário anônimo?' },
       {
         kind: 'paragraph',
-        text: 'Uma das grandes vantagens desse formato em comparação a um questionário anônimo foi a riqueza dos depoimentos captados. Com os vídeos, conseguimos não apenas registrar o que os usuários disseram, mas também interpretar o tom de voz, pausas e emoções presentes nas falas — um nível de profundidade e empatia que dificilmente seria alcançado apenas com respostas escritas.',
+        text: 'Uma das grandes vantagens desse formato em comparação a um questionário anônimo foi a riqueza dos depoimentos captados. Com os vídeos, conseguimos não apenas registrar o que os usuários disseram, mas também interpretar o tom de voz, pausas e emoções presentes nas falas, um nível de profundidade e empatia que dificilmente seria alcançado apenas com respostas escritas.',
       },
       { kind: 'heading', text: 'Impacto e próximos passos' },
       {
@@ -276,7 +276,7 @@ export const ARTICLES: Article[] = [
       {
         kind: 'image',
         src: '/assets/articles/feedback/04-team.jpeg',
-        caption: 'Equipe do espaço ContrUX — Diego, Felipe, Ana (eu), Clara e Andreza',
+        caption: 'Equipe do espaço ContrUX, Diego, Felipe, Ana (eu), Clara e Andreza',
       },
       { kind: 'heading', text: 'Conclusão' },
       {
@@ -300,7 +300,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: "Spoiler on the outcome: we ended up with a new format, properly tested, with little effort and little spend, but with a big impact — giving us real insight into our customers' actual pain points and needs.",
+        text: "Spoiler on the outcome: we ended up with a new format, properly tested, with little effort and little spend, but with a big impact, giving us real insight into our customers' actual pain points and needs.",
       },
       { kind: 'heading', text: 'The concept behind the activity' },
       {
@@ -322,7 +322,7 @@ export const ARTICLES: Article[] = [
         kind: 'image',
         src: '/assets/articles/feedback/02-mvp.jpeg',
         caption:
-          "MVP 1 — The anonymous testimonial activity. In the picture, the materials used: a chair in case the participant needed to sit, an X taped on the floor marking their position, a direct light casting a shadow on the wall, red poster board around it to direct the light, and, on the table in front of the chair, a phone stand recording only the shadow on the wall and the participant's voice.",
+          "MVP 1, The anonymous testimonial activity. In the picture, the materials used: a chair in case the participant needed to sit, an X taped on the floor marking their position, a direct light casting a shadow on the wall, red poster board around it to direct the light, and, on the table in front of the chair, a phone stand recording only the shadow on the wall and the participant's voice.",
       },
       {
         kind: 'paragraph',
@@ -330,7 +330,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Our activity ran for 2 hours, competing with talks and other event activities, and we still collected a total of 19 testimonials — reinforcing how effective it was and validating our MVP.',
+        text: 'Our activity ran for 2 hours, competing with talks and other event activities, and we still collected a total of 19 testimonials, reinforcing how effective it was and validating our MVP.',
       },
       { kind: 'heading', text: 'Results and learnings' },
       {
@@ -344,7 +344,7 @@ export const ARTICLES: Article[] = [
       {
         kind: 'image',
         src: '/assets/articles/feedback/03-video.png',
-        caption: 'Screenshot of the edited video — voice and image anonymized',
+        caption: 'Screenshot of the edited video, voice and image anonymized',
       },
       { kind: 'paragraph', text: 'Among the main learnings:' },
       {
@@ -358,7 +358,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'But how is this different from an anonymous survey?' },
       {
         kind: 'paragraph',
-        text: 'One of the big advantages of this format compared to an anonymous survey was the richness of the testimonials we captured. With video, we could not only record what users said, but also read tone of voice, pauses and emotion in what they shared — a level of depth and empathy that would be hard to reach with written answers alone.',
+        text: 'One of the big advantages of this format compared to an anonymous survey was the richness of the testimonials we captured. With video, we could not only record what users said, but also read tone of voice, pauses and emotion in what they shared, a level of depth and empathy that would be hard to reach with written answers alone.',
       },
       { kind: 'heading', text: 'Impact and next steps' },
       {
@@ -373,7 +373,7 @@ export const ARTICLES: Article[] = [
       {
         kind: 'image',
         src: '/assets/articles/feedback/04-team.jpeg',
-        caption: 'The ConstrUX space team — Diego, Felipe, Ana (me), Clara and Andreza',
+        caption: 'The ConstrUX space team, Diego, Felipe, Ana (me), Clara and Andreza',
       },
       { kind: 'heading', text: 'Conclusion' },
       {
@@ -411,14 +411,14 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'O problema' },
       {
         kind: 'paragraph',
-        text: 'Nossa equipe de design tinha um desafio recorrente: conseguir clientes para participar de entrevistas e pesquisas. Mas a questão não era simplesmente "não encontrar pessoas" — o maior problema era o engajamento. Entre os principais impactos dessa dificuldade, percebemos que:',
+        text: 'Nossa equipe de design tinha um desafio recorrente: conseguir clientes para participar de entrevistas e pesquisas. Mas a questão não era simplesmente "não encontrar pessoas", o maior problema era o engajamento. Entre os principais impactos dessa dificuldade, percebemos que:',
       },
       {
         kind: 'list',
         items: [
           'As pesquisas ficavam restritas a poucos usuários, porque eram sempre os mesmos que aceitavam participar, o que limitava os insights e a representatividade',
           'Projetos eram atrasados ou até cancelados por falta de validação e demora para encontrar participantes',
-          'Gastávamos horas tentando recrutar, em vez de analisar insights — o mesmo designer responsável pela pesquisa é quem fazia o recrutamento, muitas vezes por e-mail ou telefone',
+          'Gastávamos horas tentando recrutar, em vez de analisar insights, o mesmo designer responsável pela pesquisa é quem fazia o recrutamento, muitas vezes por e-mail ou telefone',
           'Sem uma base representativa por baixa adesão de participantes, o produto perdia oportunidades de melhoria',
         ],
       },
@@ -436,7 +436,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: '2. Aplicação de questionários' },
       {
         kind: 'paragraph',
-        text: 'Criei dois formulários para captar diferentes perspectivas. No formulário para clientes, a intenção foi investigar o que motivaria ou desmotivaria os usuários a participar de nossas pesquisas — questionei sobre preferências, expectativas e a percepção dos convites. No formulário para designers (equipes internas e externas), mapeei os métodos de recrutamento existentes e os desafios enfrentados pelos profissionais da área, além de recolher sugestões sobre como aprimorar o processo e aumentar a taxa de adesão.',
+        text: 'Criei dois formulários para captar diferentes perspectivas. No formulário para clientes, a intenção foi investigar o que motivaria ou desmotivaria os usuários a participar de nossas pesquisas, questionei sobre preferências, expectativas e a percepção dos convites. No formulário para designers (equipes internas e externas), mapeei os métodos de recrutamento existentes e os desafios enfrentados pelos profissionais da área, além de recolher sugestões sobre como aprimorar o processo e aumentar a taxa de adesão.',
       },
       { kind: 'heading', text: '3. Análise quantitativa dos dados' },
       {
@@ -459,7 +459,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'Da análise à ação: ideação colaborativa' },
       {
         kind: 'paragraph',
-        text: 'Após a pesquisa, apresentei os resultados ao time de design e conduzi um brainstorming para gerar novas soluções. Em seguida, utilizamos o Product Backlog Brainstorming (PBB) para detalhar as soluções levantadas e entender o grau de esforço de cada uma. Com as features definidas, aplicamos a matriz impacto x esforço para priorizar as mais viáveis e estratégicas — resultando em um backlog organizado, com direcionamento claro e focado nas soluções de maior valor para o recrutamento.',
+        text: 'Após a pesquisa, apresentei os resultados ao time de design e conduzi um brainstorming para gerar novas soluções. Em seguida, utilizamos o Product Backlog Brainstorming (PBB) para detalhar as soluções levantadas e entender o grau de esforço de cada uma. Com as features definidas, aplicamos a matriz impacto x esforço para priorizar as mais viáveis e estratégicas, resultando em um backlog organizado, com direcionamento claro e focado nas soluções de maior valor para o recrutamento.',
       },
       { kind: 'image', src: '/assets/articles/recrutamento/02-board.jpeg', caption: 'Board da sessão de ideação' },
       { kind: 'heading', text: 'Algumas das soluções que encontramos' },
@@ -472,12 +472,12 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: '2. Terceirização do recrutamento com equipes internas' },
       {
         kind: 'paragraph',
-        text: 'Envolver as equipes de CS e Suporte, que já possuem contato próximo com os clientes, para ajudar no recrutamento — sempre com base no perfil definido pelo time de design, com modelos de mensagens criados junto com o marketing. Benefício: abordagens mais eficazes e personalizadas, aumentando a taxa de conversão.',
+        text: 'Envolver as equipes de CS e Suporte, que já possuem contato próximo com os clientes, para ajudar no recrutamento, sempre com base no perfil definido pelo time de design, com modelos de mensagens criados junto com o marketing. Benefício: abordagens mais eficazes e personalizadas, aumentando a taxa de conversão.',
       },
       { kind: 'heading', text: '3. Uso da comunidade da empresa como canal de recrutamento' },
       {
         kind: 'paragraph',
-        text: 'Criar uma página do time de design dentro da comunidade da empresa, com formulários de recrutamento para filtrar perfis, calendários de eventos e atualizações de projetos, e um espaço para divulgar clientes participantes e promover networking — um canal centralizado para relacionamento e recrutamento contínuo.',
+        text: 'Criar uma página do time de design dentro da comunidade da empresa, com formulários de recrutamento para filtrar perfis, calendários de eventos e atualizações de projetos, e um espaço para divulgar clientes participantes e promover networking, um canal centralizado para relacionamento e recrutamento contínuo.',
       },
       { kind: 'heading', text: '4. Botão de feedback no produto' },
       {
@@ -487,12 +487,12 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: '5. Criação de uma plataforma de recrutamento estilo Colab' },
       {
         kind: 'paragraph',
-        text: 'Um site específico para divulgação de workshops e eventos anuais, inscrição direta para testes e pesquisas, e acompanhamento do status dos projetos — incluindo depoimentos de clientes satisfeitos para gerar credibilidade e incentivar novos participantes.',
+        text: 'Um site específico para divulgação de workshops e eventos anuais, inscrição direta para testes e pesquisas, e acompanhamento do status dos projetos, incluindo depoimentos de clientes satisfeitos para gerar credibilidade e incentivar novos participantes.',
       },
       { kind: 'heading', text: '6. WhatsApp corporativo verificado para o time de Design' },
       {
         kind: 'paragraph',
-        text: 'Um canal oficial e verificado para comunicação com os clientes, trazendo mais confiança e uma comunicação mais rápida e acessível — avaliando antes a melhor forma de uso para evitar problemas de volume e suporte.',
+        text: 'Um canal oficial e verificado para comunicação com os clientes, trazendo mais confiança e uma comunicação mais rápida e acessível, avaliando antes a melhor forma de uso para evitar problemas de volume e suporte.',
       },
       { kind: 'heading', text: '7. Gamificação para incentivar a participação' },
       {
@@ -510,7 +510,7 @@ export const ARTICLES: Article[] = [
           'As pessoas querem participar, mas precisam perceber o valor do seu feedback',
           'Incentivos nem sempre precisam ser financeiros; conteúdos exclusivos podem ser um diferencial importante',
           'Recrutar no momento certo (como durante a interação com a plataforma) pode aumentar significativamente a adesão',
-          'Colaboração é a chave — a união do conhecimento dos dados com a criatividade do time resultou em soluções mais alinhadas às necessidades dos usuários',
+          'Colaboração é a chave, a união do conhecimento dos dados com a criatividade do time resultou em soluções mais alinhadas às necessidades dos usuários',
         ],
       },
       {
@@ -534,14 +534,14 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'The problem' },
       {
         kind: 'paragraph',
-        text: 'Our design team had a recurring challenge: getting customers to take part in interviews and research. But the issue wasn\'t simply "not finding people" — the bigger problem was engagement. Among the main impacts of this difficulty, we noticed that:',
+        text: 'Our design team had a recurring challenge: getting customers to take part in interviews and research. But the issue wasn\'t simply "not finding people", the bigger problem was engagement. Among the main impacts of this difficulty, we noticed that:',
       },
       {
         kind: 'list',
         items: [
           'Research was limited to a small pool of users, because it was always the same people agreeing to participate, which limited the insights and how representative they were',
           'Projects were delayed or even canceled due to a lack of validation and the time it took to find participants',
-          'We spent hours trying to recruit instead of analyzing insights — the same designer responsible for the research also handled recruiting, often by email or phone',
+          'We spent hours trying to recruit instead of analyzing insights, the same designer responsible for the research also handled recruiting, often by email or phone',
           'Without a representative base due to low participant turnout, the product missed opportunities for improvement',
         ],
       },
@@ -559,7 +559,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: '2. Running surveys' },
       {
         kind: 'paragraph',
-        text: 'I created two forms to capture different perspectives. In the customer form, the goal was to investigate what would motivate or discourage users from taking part in our research — I asked about preferences, expectations and how they perceived our invitations. In the designer form (internal and external teams), I mapped existing recruiting methods and the challenges faced by professionals in the field, and also gathered suggestions on how to improve the process and increase participation rates.',
+        text: 'I created two forms to capture different perspectives. In the customer form, the goal was to investigate what would motivate or discourage users from taking part in our research, I asked about preferences, expectations and how they perceived our invitations. In the designer form (internal and external teams), I mapped existing recruiting methods and the challenges faced by professionals in the field, and also gathered suggestions on how to improve the process and increase participation rates.',
       },
       { kind: 'heading', text: '3. Quantitative data analysis' },
       {
@@ -582,7 +582,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'From analysis to action: collaborative ideation' },
       {
         kind: 'paragraph',
-        text: 'After the research, I presented the results to the design team and ran a brainstorming session to generate new solutions. We then used Product Backlog Brainstorming (PBB) to flesh out the proposed solutions and understand how much effort each would take. With the features defined, we applied an impact-versus-effort matrix to prioritize the most viable and strategic ones — resulting in an organized backlog with clear direction, focused on the solutions with the most value for recruiting.',
+        text: 'After the research, I presented the results to the design team and ran a brainstorming session to generate new solutions. We then used Product Backlog Brainstorming (PBB) to flesh out the proposed solutions and understand how much effort each would take. With the features defined, we applied an impact-versus-effort matrix to prioritize the most viable and strategic ones, resulting in an organized backlog with clear direction, focused on the solutions with the most value for recruiting.',
       },
       { kind: 'image', src: '/assets/articles/recrutamento/02-board.jpeg', caption: 'Board from the ideation session' },
       { kind: 'heading', text: 'Some of the solutions we found' },
@@ -590,17 +590,17 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: '1. Rewards and perks for engagement' },
       {
         kind: 'paragraph',
-        text: 'Create incentives to attract participants — offering advanced courses and exclusive content, participation certificates, early access to new features, and a VIP group for closer interactions. The goal is to boost participation and make participants feel valued.',
+        text: 'Create incentives to attract participants, offering advanced courses and exclusive content, participation certificates, early access to new features, and a VIP group for closer interactions. The goal is to boost participation and make participants feel valued.',
       },
       { kind: 'heading', text: '2. Outsourcing recruiting to internal teams' },
       {
         kind: 'paragraph',
-        text: 'Bring in the CS and Support teams, who already have close contact with customers, to help with recruiting — always based on the profile defined by the design team, with message templates created together with marketing. Benefit: more effective, more personalized outreach, increasing the conversion rate.',
+        text: 'Bring in the CS and Support teams, who already have close contact with customers, to help with recruiting, always based on the profile defined by the design team, with message templates created together with marketing. Benefit: more effective, more personalized outreach, increasing the conversion rate.',
       },
       { kind: 'heading', text: '3. Using the company community as a recruiting channel' },
       {
         kind: 'paragraph',
-        text: 'Create a page for the design team inside the company community, with recruiting forms to filter profiles, event calendars and project updates, and a space to spotlight participating customers and encourage networking — a centralized channel for ongoing relationships and recruiting.',
+        text: 'Create a page for the design team inside the company community, with recruiting forms to filter profiles, event calendars and project updates, and a space to spotlight participating customers and encourage networking, a centralized channel for ongoing relationships and recruiting.',
       },
       { kind: 'heading', text: '4. In-product feedback button' },
       {
@@ -610,12 +610,12 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: '5. Building a Colab-style recruiting platform' },
       {
         kind: 'paragraph',
-        text: 'A dedicated site to promote workshops and annual events, direct sign-up for tests and research, and status tracking for projects — including testimonials from satisfied customers to build credibility and encourage new participants.',
+        text: 'A dedicated site to promote workshops and annual events, direct sign-up for tests and research, and status tracking for projects, including testimonials from satisfied customers to build credibility and encourage new participants.',
       },
       { kind: 'heading', text: '6. A verified corporate WhatsApp for the Design team' },
       {
         kind: 'paragraph',
-        text: 'An official, verified channel for communicating with customers, bringing more trust and faster, more accessible communication — while first evaluating the best way to use it to avoid volume and support issues.',
+        text: 'An official, verified channel for communicating with customers, bringing more trust and faster, more accessible communication, while first evaluating the best way to use it to avoid volume and support issues.',
       },
       { kind: 'heading', text: '7. Gamification to encourage participation' },
       {
@@ -633,7 +633,7 @@ export const ARTICLES: Article[] = [
           'People want to participate, but they need to see the value of their feedback',
           "Incentives don't always have to be financial; exclusive content can be an important differentiator",
           'Recruiting at the right moment (like during interaction with the platform) can significantly increase participation',
-          "Collaboration is key — combining data knowledge with the team's creativity led to solutions better aligned with user needs",
+          "Collaboration is key, combining data knowledge with the team's creativity led to solutions better aligned with user needs",
         ],
       },
       {
@@ -655,8 +655,8 @@ export const ARTICLES: Article[] = [
     meta: '9 de março de 2025 · 4 min de leitura',
     metaEn: 'March 9, 2025 · 4 min read',
     cover: '/assets/articles/ux-research/01-cover.png',
-    coverCaption: 'LUPA — Laboratório de UX Research, oferecido pelo ResearchPro',
-    coverCaptionEn: 'LUPA — UX Research Lab, hosted by ResearchPro',
+    coverCaption: 'LUPA, Laboratório de UX Research, oferecido pelo ResearchPro',
+    coverCaptionEn: 'LUPA, UX Research Lab, hosted by ResearchPro',
     listDate: '10 mar 2025',
     listDateEn: 'Mar 10, 2025',
     listTitle: 'UX Research na prática: insights de um evento presencial',
@@ -672,7 +672,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Esse artigo tem um texto breve, mas principalmente para quem está começando na carreira de UX vale a leitura — muitos desses insights são especialmente úteis para quem trabalha com pesquisa.',
+        text: 'Esse artigo tem um texto breve, mas principalmente para quem está começando na carreira de UX vale a leitura, muitos desses insights são especialmente úteis para quem trabalha com pesquisa.',
       },
       { kind: 'heading', text: 'Aprendizados para UX Designers' },
       { kind: 'heading', text: '1. Planejamento é crucial' },
@@ -683,7 +683,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: '2. A análise dos dados demanda tempo e dedicação' },
       {
         kind: 'paragraph',
-        text: 'Coletar dados é apenas uma parte do processo. Para obter insights realmente valiosos, é necessário tempo para organizar, interpretar e sintetizar as informações. Métodos como matrizes de priorização e ferramentas de análise podem facilitar esse processo — uma ferramenta que ajudou muito foi o Marvin, que permite gravar entrevistas e organizar os dados de forma estruturada. Vale a pena testar!',
+        text: 'Coletar dados é apenas uma parte do processo. Para obter insights realmente valiosos, é necessário tempo para organizar, interpretar e sintetizar as informações. Métodos como matrizes de priorização e ferramentas de análise podem facilitar esse processo, uma ferramenta que ajudou muito foi o Marvin, que permite gravar entrevistas e organizar os dados de forma estruturada. Vale a pena testar!',
       },
       { kind: 'heading', text: '3. Quanto mais pesquisa e entrevistas realizamos, mais respostas encontramos' },
       {
@@ -698,7 +698,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: '5. Improvisação, agilidade e falar em público são habilidades essenciais' },
       {
         kind: 'paragraph',
-        text: 'Uma das experiências mais valiosas desse evento foi praticar a improvisação e a agilidade na pesquisa, além de falar na frente de pessoas que eu nunca havia encontrado antes. Isso me ajudou a ganhar mais confiança, melhorar minha performance no trabalho e desenvolver habilidades essenciais para apresentações e dinâmicas com stakeholders — e me ajudou até na vida pessoal, tornando-me mais segura e articulada no dia a dia.',
+        text: 'Uma das experiências mais valiosas desse evento foi praticar a improvisação e a agilidade na pesquisa, além de falar na frente de pessoas que eu nunca havia encontrado antes. Isso me ajudou a ganhar mais confiança, melhorar minha performance no trabalho e desenvolver habilidades essenciais para apresentações e dinâmicas com stakeholders, e me ajudou até na vida pessoal, tornando-me mais segura e articulada no dia a dia.',
       },
       { kind: 'image', src: '/assets/articles/ux-research/02-inline.jpeg' },
       { kind: 'heading', text: 'Como foi o evento?' },
@@ -727,13 +727,13 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Como bônus, ainda fui sorteada com o livro O Teste da Mãe no final do evento — recomendo demais a leitura!',
+        text: 'Como bônus, ainda fui sorteada com o livro O Teste da Mãe no final do evento, recomendo demais a leitura!',
       },
       { kind: 'image', src: '/assets/articles/ux-research/04-livro.png' },
       { kind: 'image', src: '/assets/articles/ux-research/05-livro2.png' },
       {
         kind: 'paragraph',
-        text: 'Se você é designer e trabalha com pesquisa, espero que esses aprendizados te ajudem a refinar suas práticas e tornar suas pesquisas mais eficazes! Dica bônus: sempre tente participar de eventos da área, seja como forma de networking ou aprendizado — é muito bom aprender e trocar com quem já atua no mercado.',
+        text: 'Se você é designer e trabalha com pesquisa, espero que esses aprendizados te ajudem a refinar suas práticas e tornar suas pesquisas mais eficazes! Dica bônus: sempre tente participar de eventos da área, seja como forma de networking ou aprendizado, é muito bom aprender e trocar com quem já atua no mercado.',
       },
     ],
     bodyEn: [
@@ -743,7 +743,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: "This is a short read, but especially worth it if you're just starting out in UX — many of these insights are particularly useful if you work with research.",
+        text: "This is a short read, but especially worth it if you're just starting out in UX, many of these insights are particularly useful if you work with research.",
       },
       { kind: 'heading', text: 'Lessons for UX Designers' },
       { kind: 'heading', text: '1. Planning is crucial' },
@@ -754,7 +754,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: '2. Data analysis takes time and dedication' },
       {
         kind: 'paragraph',
-        text: "Collecting data is only part of the process. To get truly valuable insights, you need time to organize, interpret and synthesize the information. Tools like prioritization matrices and analysis tools can make this easier — one tool that helped a lot was Marvin, which lets you record interviews and organize the data in a structured way. Worth trying!",
+        text: "Collecting data is only part of the process. To get truly valuable insights, you need time to organize, interpret and synthesize the information. Tools like prioritization matrices and analysis tools can make this easier, one tool that helped a lot was Marvin, which lets you record interviews and organize the data in a structured way. Worth trying!",
       },
       { kind: 'heading', text: '3. The more research and interviews you do, the more answers you find' },
       {
@@ -769,7 +769,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: '5. Improvisation, agility and public speaking are essential skills' },
       {
         kind: 'paragraph',
-        text: "One of the most valuable experiences from this event was practicing improvisation and agility in research, as well as speaking in front of people I'd never met before. It helped me build more confidence, improve my performance at work, and develop skills that are essential for presentations and stakeholder sessions — and it even helped me in my personal life, making me more self-assured and articulate day to day.",
+        text: "One of the most valuable experiences from this event was practicing improvisation and agility in research, as well as speaking in front of people I'd never met before. It helped me build more confidence, improve my performance at work, and develop skills that are essential for presentations and stakeholder sessions, and it even helped me in my personal life, making me more self-assured and articulate day to day.",
       },
       { kind: 'image', src: '/assets/articles/ux-research/02-inline.jpeg' },
       { kind: 'heading', text: 'What was the event like?' },
@@ -798,13 +798,13 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'As a bonus, I even won a copy of The Mom Test in the event\'s raffle — highly recommend reading it!',
+        text: 'As a bonus, I even won a copy of The Mom Test in the event\'s raffle, highly recommend reading it!',
       },
       { kind: 'image', src: '/assets/articles/ux-research/04-livro.png' },
       { kind: 'image', src: '/assets/articles/ux-research/05-livro2.png' },
       {
         kind: 'paragraph',
-        text: "If you're a designer who works with research, I hope these lessons help you refine your practice and make your studies more effective! Bonus tip: always try to attend events in the field, whether for networking or learning — it's great to learn from and trade notes with people who are already out there in the market.",
+        text: "If you're a designer who works with research, I hope these lessons help you refine your practice and make your studies more effective! Bonus tip: always try to attend events in the field, whether for networking or learning, it's great to learn from and trade notes with people who are already out there in the market.",
       },
     ],
   },
@@ -828,21 +828,21 @@ export const ARTICLES: Article[] = [
     listExcerpt:
       'Lições com workshops que gostaria de saber antes para aprender mais rápido, acertar mais cedo e errar menos.',
     listExcerptEn:
-      "Lessons from running workshops that I wish I'd known earlier — to learn faster, get things right sooner, and make fewer mistakes.",
+      "Lessons from running workshops that I wish I'd known earlier, to learn faster, get things right sooner, and make fewer mistakes.",
     body: [
       { kind: 'heading', text: 'Quem somos e o que fazemos' },
       {
         kind: 'paragraph',
-        text: 'Somos três designers de produto do time do Sienge (Softplan), com foco em pesquisa e em soluções centradas na experiência do usuário. Entre 2022 e 2023 conduzimos vários workshops — remotos e presenciais — com clientes, buscando entender problemas reais e trazer inovação para o software B2B em que atuamos.',
+        text: 'Somos três designers de produto do time do Sienge (Softplan), com foco em pesquisa e em soluções centradas na experiência do usuário. Entre 2022 e 2023 conduzimos vários workshops, remotos e presenciais, com clientes, buscando entender problemas reais e trazer inovação para o software B2B em que atuamos.',
       },
       {
         kind: 'paragraph',
-        text: 'Como cada empresa cliente tem seus próprios processos, reunir times diferentes num mesmo workshop deixa evidente o quanto o produto precisa suportar formas de trabalho distintas — um desafio direto para quem desenha fluxos e interfaces.',
+        text: 'Como cada empresa cliente tem seus próprios processos, reunir times diferentes num mesmo workshop deixa evidente o quanto o produto precisa suportar formas de trabalho distintas, um desafio direto para quem desenha fluxos e interfaces.',
       },
       { kind: 'heading', text: 'O que é um workshop' },
       {
         kind: 'paragraph',
-        text: 'Um workshop é uma dinâmica colaborativa em que design, usuários e outras partes interessadas constroem juntos soluções para um problema específico. É uma forma eficaz de trazer o usuário para dentro do processo — ouvindo dores, ideias e experiências — a caminho de produtos mais alinhados com o que as pessoas realmente precisam.',
+        text: 'Um workshop é uma dinâmica colaborativa em que design, usuários e outras partes interessadas constroem juntos soluções para um problema específico. É uma forma eficaz de trazer o usuário para dentro do processo, ouvindo dores, ideias e experiências, a caminho de produtos mais alinhados com o que as pessoas realmente precisam.',
       },
       {
         kind: 'image',
@@ -852,7 +852,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'A estrutura do workshop e nosso papel' },
       {
         kind: 'paragraph',
-        text: 'Nossa equipe sempre reserva de dois a três designers para os papéis de Facilitador e Observador(es). O Facilitador cria o ambiente colaborativo, define objetivos e conduz as atividades — gerando ideias, mediando conflitos e praticando escuta ativa para que todas as perspectivas sejam ouvidas, sem perder de vista o tempo de cada dinâmica.',
+        text: 'Nossa equipe sempre reserva de dois a três designers para os papéis de Facilitador e Observador(es). O Facilitador cria o ambiente colaborativo, define objetivos e conduz as atividades, gerando ideias, mediando conflitos e praticando escuta ativa para que todas as perspectivas sejam ouvidas, sem perder de vista o tempo de cada dinâmica.',
       },
       {
         kind: 'image',
@@ -861,11 +861,11 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Os demais designers atuam como apoio: registram o que passa despercebido, filmam, anotam pontos-chave e, dependendo da dinâmica, incentivam mais participação — mas o papel principal é observar, entendendo tanto o ritmo quanto o conteúdo da discussão.',
+        text: 'Os demais designers atuam como apoio: registram o que passa despercebido, filmam, anotam pontos-chave e, dependendo da dinâmica, incentivam mais participação, mas o papel principal é observar, entendendo tanto o ritmo quanto o conteúdo da discussão.',
       },
       {
         kind: 'paragraph',
-        text: 'No remoto, esses papéis se adaptam: uma pessoa lidera a facilitação enquanto a outra documenta insights, sentimentos e comentários dos usuários — muitos têm receio de editar os boards diretamente, então essa documentação feita pelo Observador facilita bastante a análise depois.',
+        text: 'No remoto, esses papéis se adaptam: uma pessoa lidera a facilitação enquanto a outra documenta insights, sentimentos e comentários dos usuários, muitos têm receio de editar os boards diretamente, então essa documentação feita pelo Observador facilita bastante a análise depois.',
       },
       { kind: 'heading', text: 'Aprendizados' },
       {
@@ -881,10 +881,10 @@ export const ARTICLES: Article[] = [
       {
         kind: 'list',
         items: [
-          'Disponibilidade: é o mais rápido de agendar. Escolha uma plataforma de videoconferência estável e fácil de usar, e verifique se dá para controlar microfones abertos — ruídos e conversas cruzadas atrapalham bastante',
-          'Propósito claro: explique bem o objetivo no convite. Já tivemos clientes que apareceram achando que seria um treinamento, mesmo com os objetivos em negrito no e-mail — confirme que a pessoa entendeu a proposta antes de enviar',
-          'Instruções prévias: peça silêncio, microfone testado e internet estável. Manter a atenção de quem está no próprio ambiente de trabalho é o maior desafio, por isso workshops remotos não podem ser longos — ajuda dar um tempo para ensinar o uso dos boards interativos e garantir que todos tenham voz, com um tom leve e descontraído',
-          'Viabilidade: mais barato, sem gastos com espaço, deslocamento ou alimentação, e mais fácil de escalar — dá para reunir participantes do Brasil inteiro em um único workshop, o que seria inviável presencialmente',
+          'Disponibilidade: é o mais rápido de agendar. Escolha uma plataforma de videoconferência estável e fácil de usar, e verifique se dá para controlar microfones abertos, ruídos e conversas cruzadas atrapalham bastante',
+          'Propósito claro: explique bem o objetivo no convite. Já tivemos clientes que apareceram achando que seria um treinamento, mesmo com os objetivos em negrito no e-mail, confirme que a pessoa entendeu a proposta antes de enviar',
+          'Instruções prévias: peça silêncio, microfone testado e internet estável. Manter a atenção de quem está no próprio ambiente de trabalho é o maior desafio, por isso workshops remotos não podem ser longos, ajuda dar um tempo para ensinar o uso dos boards interativos e garantir que todos tenham voz, com um tom leve e descontraído',
+          'Viabilidade: mais barato, sem gastos com espaço, deslocamento ou alimentação, e mais fácil de escalar, dá para reunir participantes do Brasil inteiro em um único workshop, o que seria inviável presencialmente',
           'Documentação: gravar e transcrever fica mais simples, já que as plataformas de vídeo têm recursos nativos para isso',
         ],
       },
@@ -897,17 +897,17 @@ export const ARTICLES: Article[] = [
       {
         kind: 'list',
         items: [
-          'Disponibilidade: o maior desafio é a agenda de todo mundo. Optamos por realizar workshops em diferentes capitais, guiados pela concentração de usuários — nem sempre a decisão ideal, mas a possível',
-          'Mais colaborativo: sem câmera fechada e sem comentários anônimos, o ambiente fica mais espontâneo — fica evidente sobretudo nas dinâmicas de quebra-gelo, com maior fluidez e produtividade',
-          'Instruções prévias: sem problemas de conexão, mas o local precisa ser silencioso, iluminado e ventilado — já fizemos workshops em locais com acústica tão ruim que os próprios participantes mal se ouviam. Leve os recursos necessários (computador, projetor, flipchart, post-its) e chegue com antecedência para testar tudo',
-          'Flexibilidade: atrasos acontecem, então tenha um plano B. Workshops de dois dias tendem a perder metade dos participantes no segundo dia — o ideal é concentrar em um único turno de até 5h, com intervalos que não sejam longos demais',
-          'Viabilidade: mais caro e exige mais organização — espaço, materiais, transporte e alimentação entram na conta',
-          'Documentação: o local e o equipamento de gravação importam muito. Tenha sempre alguém dedicado a observar, anotar e registrar fotos — sem ser o Facilitador — pensando tanto na documentação quanto na divulgação do trabalho',
+          'Disponibilidade: o maior desafio é a agenda de todo mundo. Optamos por realizar workshops em diferentes capitais, guiados pela concentração de usuários, nem sempre a decisão ideal, mas a possível',
+          'Mais colaborativo: sem câmera fechada e sem comentários anônimos, o ambiente fica mais espontâneo, fica evidente sobretudo nas dinâmicas de quebra-gelo, com maior fluidez e produtividade',
+          'Instruções prévias: sem problemas de conexão, mas o local precisa ser silencioso, iluminado e ventilado, já fizemos workshops em locais com acústica tão ruim que os próprios participantes mal se ouviam. Leve os recursos necessários (computador, projetor, flipchart, post-its) e chegue com antecedência para testar tudo',
+          'Flexibilidade: atrasos acontecem, então tenha um plano B. Workshops de dois dias tendem a perder metade dos participantes no segundo dia, o ideal é concentrar em um único turno de até 5h, com intervalos que não sejam longos demais',
+          'Viabilidade: mais caro e exige mais organização, espaço, materiais, transporte e alimentação entram na conta',
+          'Documentação: o local e o equipamento de gravação importam muito. Tenha sempre alguém dedicado a observar, anotar e registrar fotos, sem ser o Facilitador, pensando tanto na documentação quanto na divulgação do trabalho',
         ],
       },
       {
         kind: 'paragraph',
-        text: 'Remoto ou presencial, o essencial é que os clientes se sintam à vontade para colaborar, expor sua visão e trazer os gargalos do dia a dia — e que a gente, como designers, esteja pronto para escutar com atenção, porque qualquer detalhe pode ser a peça-chave para inovar. Cada workshop ensina algo novo, e é assim que seguimos evoluindo.',
+        text: 'Remoto ou presencial, o essencial é que os clientes se sintam à vontade para colaborar, expor sua visão e trazer os gargalos do dia a dia, e que a gente, como designers, esteja pronto para escutar com atenção, porque qualquer detalhe pode ser a peça-chave para inovar. Cada workshop ensina algo novo, e é assim que seguimos evoluindo.',
       },
       {
         kind: 'image',
@@ -919,16 +919,16 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'Who we are and what we do' },
       {
         kind: 'paragraph',
-        text: "We're three product designers on the Sienge (Softplan) team, focused on research and experience-centered solutions. Between 2022 and 2023, we ran several workshops — remote and in person — with customers, aiming to understand real problems and bring innovation to the B2B software we work on.",
+        text: "We're three product designers on the Sienge (Softplan) team, focused on research and experience-centered solutions. Between 2022 and 2023, we ran several workshops, remote and in person, with customers, aiming to understand real problems and bring innovation to the B2B software we work on.",
       },
       {
         kind: 'paragraph',
-        text: "Since every client company has its own processes, bringing different teams together in the same workshop makes it obvious just how much the product needs to support different ways of working — a direct challenge for anyone designing flows and interfaces.",
+        text: "Since every client company has its own processes, bringing different teams together in the same workshop makes it obvious just how much the product needs to support different ways of working, a direct challenge for anyone designing flows and interfaces.",
       },
       { kind: 'heading', text: 'What is a workshop' },
       {
         kind: 'paragraph',
-        text: "A workshop is a collaborative activity where design, users and other stakeholders build solutions to a specific problem together. It's an effective way to bring the user into the process — listening to pain points, ideas and experiences — on the way to products that are better aligned with what people actually need.",
+        text: "A workshop is a collaborative activity where design, users and other stakeholders build solutions to a specific problem together. It's an effective way to bring the user into the process, listening to pain points, ideas and experiences, on the way to products that are better aligned with what people actually need.",
       },
       {
         kind: 'image',
@@ -938,7 +938,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'The workshop structure and our role' },
       {
         kind: 'paragraph',
-        text: "Our team always sets aside two to three designers for the roles of Facilitator and Observer(s). The Facilitator creates the collaborative environment, sets objectives and runs the activities — generating ideas, mediating conflict and practicing active listening so every perspective is heard, without losing track of each activity's time.",
+        text: "Our team always sets aside two to three designers for the roles of Facilitator and Observer(s). The Facilitator creates the collaborative environment, sets objectives and runs the activities, generating ideas, mediating conflict and practicing active listening so every perspective is heard, without losing track of each activity's time.",
       },
       {
         kind: 'image',
@@ -947,11 +947,11 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'The other designers act as support: they capture what might go unnoticed, film, note down key points and, depending on the activity, encourage more participation — but their main role is to observe, understanding both the pace and the content of the discussion.',
+        text: 'The other designers act as support: they capture what might go unnoticed, film, note down key points and, depending on the activity, encourage more participation, but their main role is to observe, understanding both the pace and the content of the discussion.',
       },
       {
         kind: 'paragraph',
-        text: "Remotely, these roles adapt: one person leads facilitation while the other documents insights, feelings and comments from users — many are hesitant to edit the boards directly, so this documentation from the Observer makes the later analysis much easier.",
+        text: "Remotely, these roles adapt: one person leads facilitation while the other documents insights, feelings and comments from users, many are hesitant to edit the boards directly, so this documentation from the Observer makes the later analysis much easier.",
       },
       { kind: 'heading', text: 'Lessons learned' },
       {
@@ -967,10 +967,10 @@ export const ARTICLES: Article[] = [
       {
         kind: 'list',
         items: [
-          'Availability: the fastest to schedule. Choose a stable, easy-to-use video conferencing platform, and check whether you can mute open microphones — background noise and crosstalk get in the way a lot',
-          'Clear purpose: explain the goal clearly in the invite. We\'ve had customers show up thinking it would be a training session, even with the objectives in bold in the email — confirm the person understood the proposal before sending',
-          "Prior instructions: ask for quiet, a tested microphone and a stable connection. Holding the attention of someone who's in their own workspace is the biggest challenge, so remote workshops can't run too long — it helps to set aside time to teach people how to use the interactive boards and make sure everyone has a voice, with a light, relaxed tone",
-          'Feasibility: cheaper, no spending on venue, travel or catering, and easier to scale — you can bring together participants from all over Brazil in a single workshop, which would be unfeasible in person',
+          'Availability: the fastest to schedule. Choose a stable, easy-to-use video conferencing platform, and check whether you can mute open microphones, background noise and crosstalk get in the way a lot',
+          'Clear purpose: explain the goal clearly in the invite. We\'ve had customers show up thinking it would be a training session, even with the objectives in bold in the email, confirm the person understood the proposal before sending',
+          "Prior instructions: ask for quiet, a tested microphone and a stable connection. Holding the attention of someone who's in their own workspace is the biggest challenge, so remote workshops can't run too long, it helps to set aside time to teach people how to use the interactive boards and make sure everyone has a voice, with a light, relaxed tone",
+          'Feasibility: cheaper, no spending on venue, travel or catering, and easier to scale, you can bring together participants from all over Brazil in a single workshop, which would be unfeasible in person',
           'Documentation: recording and transcribing is simpler, since video platforms have built-in features for that',
         ],
       },
@@ -983,17 +983,17 @@ export const ARTICLES: Article[] = [
       {
         kind: 'list',
         items: [
-          "Availability: the biggest challenge is everyone's schedule. We chose to hold workshops in different capital cities, guided by where users were concentrated — not always the ideal decision, but the feasible one",
-          'More collaborative: with no camera off and no anonymous comments, the environment feels more spontaneous — it shows especially in icebreaker activities, with more flow and productivity',
-          "Prior instructions: no connectivity issues, but the venue needs to be quiet, well lit and ventilated — we've run workshops in places with acoustics so bad that participants could barely hear each other. Bring the resources you need (computer, projector, flipchart, post-its) and arrive early to test everything",
-          "Flexibility: delays happen, so have a plan B. Two-day workshops tend to lose half their participants on the second day — it's best to fit everything into a single session of up to 5 hours, with breaks that aren't too long",
-          'Feasibility: more expensive and requires more organization — venue, materials, transport and catering all factor in',
-          'Documentation: the venue and recording equipment matter a lot. Always have someone dedicated to observing, taking notes and capturing photos — someone other than the Facilitator — thinking about both documentation and sharing the work afterward',
+          "Availability: the biggest challenge is everyone's schedule. We chose to hold workshops in different capital cities, guided by where users were concentrated, not always the ideal decision, but the feasible one",
+          'More collaborative: with no camera off and no anonymous comments, the environment feels more spontaneous, it shows especially in icebreaker activities, with more flow and productivity',
+          "Prior instructions: no connectivity issues, but the venue needs to be quiet, well lit and ventilated, we've run workshops in places with acoustics so bad that participants could barely hear each other. Bring the resources you need (computer, projector, flipchart, post-its) and arrive early to test everything",
+          "Flexibility: delays happen, so have a plan B. Two-day workshops tend to lose half their participants on the second day, it's best to fit everything into a single session of up to 5 hours, with breaks that aren't too long",
+          'Feasibility: more expensive and requires more organization, venue, materials, transport and catering all factor in',
+          'Documentation: the venue and recording equipment matter a lot. Always have someone dedicated to observing, taking notes and capturing photos, someone other than the Facilitator, thinking about both documentation and sharing the work afterward',
         ],
       },
       {
         kind: 'paragraph',
-        text: 'Remote or in person, what matters most is that customers feel comfortable collaborating, sharing their view and bringing up their day-to-day bottlenecks — and that we, as designers, are ready to listen closely, because any detail can be the key to innovation. Every workshop teaches us something new, and that\'s how we keep evolving.',
+        text: 'Remote or in person, what matters most is that customers feel comfortable collaborating, sharing their view and bringing up their day-to-day bottlenecks, and that we, as designers, are ready to listen closely, because any detail can be the key to innovation. Every workshop teaches us something new, and that\'s how we keep evolving.',
       },
       {
         kind: 'image',
@@ -1006,15 +1006,15 @@ export const ARTICLES: Article[] = [
     slug: 'ondoc',
     kicker: 'Estudo de caso de UX/UI',
     kickerEn: 'UX/UI Case Study',
-    title: 'onDoc — a sua carteira de documentação digital',
-    titleEn: 'onDoc — your digital document wallet',
+    title: 'onDoc, a sua carteira de documentação digital',
+    titleEn: 'onDoc, your digital document wallet',
     meta: '24 de fevereiro de 2022 · 16 min de leitura',
     metaEn: 'February 24, 2022 · 16 min read',
     cover: '/assets/articles/ondoc/01-cover.png',
     listDate: '24 fev 2022',
     listDateEn: 'Feb 24, 2022',
-    listTitle: 'onDoc — a sua carteira de documentação digital',
-    listTitleEn: 'onDoc — your digital document wallet',
+    listTitle: 'onDoc, a sua carteira de documentação digital',
+    listTitleEn: 'onDoc, your digital document wallet',
     listExcerpt:
       'Um estudo para ajudar as pessoas com o armazenamento e envio de documentos pessoais para processos burocráticos mais seguro, fácil e rápido.',
     listExcerptEn:
@@ -1039,11 +1039,11 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'A maioria de nós conta com muitos outros documentos importantes — certificações, diplomas, currículos e até comprovantes de residência — que precisa carregar consigo ou enviar em cópia para dar andamento a burocracias no Brasil, seja para cadastro escolar, processos admissionais, aluguéis, entre outros. Vale também ressaltar que muitos pais precisam guardar, além dos próprios documentos, os de seus filhos até uma determinada idade, o que multiplica a quantidade de documentos para transportar.',
+        text: 'A maioria de nós conta com muitos outros documentos importantes, certificações, diplomas, currículos e até comprovantes de residência, que precisa carregar consigo ou enviar em cópia para dar andamento a burocracias no Brasil, seja para cadastro escolar, processos admissionais, aluguéis, entre outros. Vale também ressaltar que muitos pais precisam guardar, além dos próprios documentos, os de seus filhos até uma determinada idade, o que multiplica a quantidade de documentos para transportar.',
       },
       {
         kind: 'paragraph',
-        text: 'Com essa quantidade elevada de documentos físicos importantes, é comum a perda ou o roubo. Devido à pandemia, em 2020 os Correios receberam mais de 90 mil documentos perdidos em suas agências — em anos anteriores, sem isolamento social, a média era superior a 170 mil.',
+        text: 'Com essa quantidade elevada de documentos físicos importantes, é comum a perda ou o roubo. Devido à pandemia, em 2020 os Correios receberam mais de 90 mil documentos perdidos em suas agências, em anos anteriores, sem isolamento social, a média era superior a 170 mil.',
       },
       {
         kind: 'paragraph',
@@ -1051,7 +1051,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Levando em consideração que hoje o celular é o principal meio de acesso à internet no país e já substitui alguns documentos — carteira de trabalho, CNH, CPF, título de eleitor —, mas em aplicativos diferentes para cada um, o aplicativo onDoc foi criado.',
+        text: 'Levando em consideração que hoje o celular é o principal meio de acesso à internet no país e já substitui alguns documentos, carteira de trabalho, CNH, CPF, título de eleitor, mas em aplicativos diferentes para cada um, o aplicativo onDoc foi criado.',
       },
       { kind: 'heading', text: 'Objetivo do projeto' },
       {
@@ -1060,7 +1060,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Através das pesquisas deste estudo, observei que, quando as pessoas precisam entregar cópias de documentos para algum cadastro, há um esforço grande para reuni-los — seja por perda, roubo, desorganização ou por ter que refazer as cópias — o que gera impaciência.',
+        text: 'Através das pesquisas deste estudo, observei que, quando as pessoas precisam entregar cópias de documentos para algum cadastro, há um esforço grande para reuni-los, seja por perda, roubo, desorganização ou por ter que refazer as cópias, o que gera impaciência.',
       },
       {
         kind: 'paragraph',
@@ -1109,7 +1109,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Uma das perguntas buscava validar a certeza de que todo mundo já precisou enviar cópia de algum documento — incluí a opção "nunca precisei" para não enviesar a questão. Resultado: 100% das pessoas já precisaram enviar cópias de documentos para algo.',
+        text: 'Uma das perguntas buscava validar a certeza de que todo mundo já precisou enviar cópia de algum documento, incluí a opção "nunca precisei" para não enviesar a questão. Resultado: 100% das pessoas já precisaram enviar cópias de documentos para algo.',
       },
       {
         kind: 'paragraph',
@@ -1125,7 +1125,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Por se tratar de documentos pessoais, eu supunha que as pessoas tivessem receio de usar aplicativos ou salvar dados em algum lugar digital. Perguntei se utilizavam algum aplicativo com dados pessoais sensíveis (banco, CNH, etc.) e 97% respondeu que sim — o que invalidou essa suposição.',
+        text: 'Por se tratar de documentos pessoais, eu supunha que as pessoas tivessem receio de usar aplicativos ou salvar dados em algum lugar digital. Perguntei se utilizavam algum aplicativo com dados pessoais sensíveis (banco, CNH, etc.) e 97% respondeu que sim, o que invalidou essa suposição.',
       },
       {
         kind: 'paragraph',
@@ -1134,7 +1134,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'Pesquisa qualitativa' },
       {
         kind: 'paragraph',
-        text: 'Nesta etapa, formulei uma pesquisa semiestruturada com 4 pessoas que deixaram contato na pesquisa quantitativa, feita conforme a disponibilidade de cada uma — algumas pessoalmente, outras por videochamada.',
+        text: 'Nesta etapa, formulei uma pesquisa semiestruturada com 4 pessoas que deixaram contato na pesquisa quantitativa, feita conforme a disponibilidade de cada uma, algumas pessoalmente, outras por videochamada.',
       },
       {
         kind: 'paragraph',
@@ -1149,17 +1149,17 @@ export const ARTICLES: Article[] = [
         items: [
           'Você indicou que já precisou de algum número ou dado importante de um documento e não o tinha em mãos. Lembra de algum fato marcante quando isso aconteceu? Poderia relatar?',
           'Tem algum motivo especial para não carregar esses documentos com você? Resolveu esse problema de alguma maneira?',
-          'Você respondeu que precisou separar e enviar cópias de documentos para processos admissionais — poderia descrever como fez nessa tarefa?',
+          'Você respondeu que precisou separar e enviar cópias de documentos para processos admissionais, poderia descrever como fez nessa tarefa?',
         ],
       },
       { kind: 'paragraph', text: 'Algumas respostas interessantes:' },
       {
         kind: 'list',
         items: [
-          '"Lembro de precisar do número do PIS que tem na carteira de trabalho, era pra verificar se eu tinha direito a um valor no site da Caixa. Fiquei bem estressado na hora, porque moro em outra cidade e minha carteira estava na casa da minha mãe — tive que esperar ela procurar e me enviar uma foto com o número."',
-          '"Não gosto de carregar muitos documentos, dinheiro ou cartão de crédito, por segurança — porque, se eu perder um documento, é muito burocrático emitir a segunda via. E também por necessidade, dificilmente preciso da carteira de trabalho comigo."',
+          '"Lembro de precisar do número do PIS que tem na carteira de trabalho, era pra verificar se eu tinha direito a um valor no site da Caixa. Fiquei bem estressado na hora, porque moro em outra cidade e minha carteira estava na casa da minha mãe, tive que esperar ela procurar e me enviar uma foto com o número."',
+          '"Não gosto de carregar muitos documentos, dinheiro ou cartão de crédito, por segurança, porque, se eu perder um documento, é muito burocrático emitir a segunda via. E também por necessidade, dificilmente preciso da carteira de trabalho comigo."',
           '"Não gosto de carregar por medo de ser roubada ou de perder. Já perdi minha carteira com tudo dentro, foi muito trabalhoso refazer todos os documentos, e senti medo de que usassem meus dados."',
-          '"Hoje tenho meus documentos como fotos no celular, mas sempre que preciso fico procurando — demora um pouco."',
+          '"Hoje tenho meus documentos como fotos no celular, mas sempre que preciso fico procurando, demora um pouco."',
           '"É sempre bem trabalhoso, porque não sei mexer bem no computador; sempre que preciso enviar essa documentação, tenho que pedir para os meus filhos fazerem por mim."',
         ],
       },
@@ -1175,7 +1175,7 @@ export const ARTICLES: Article[] = [
       { kind: 'image', src: '/assets/articles/ondoc/05-persona.jpeg', caption: 'Persona Kátia Silva' },
       {
         kind: 'paragraph',
-        text: 'Com base nos resultados das pesquisas, este projeto focou em apenas uma persona para melhor representar uma solução específica — embora as pesquisas qualitativas indiquem que o projeto possa se estender a outros perfis de usuário no futuro.',
+        text: 'Com base nos resultados das pesquisas, este projeto focou em apenas uma persona para melhor representar uma solução específica, embora as pesquisas qualitativas indiquem que o projeto possa se estender a outros perfis de usuário no futuro.',
       },
       { kind: 'heading', text: 'Mapa da jornada da Kátia' },
       {
@@ -1185,7 +1185,7 @@ export const ARTICLES: Article[] = [
       {
         kind: 'image',
         src: '/assets/articles/ondoc/06-journey-map.jpeg',
-        caption: 'Nielsen Norman Group Journey Map Template — traduzido por Leandro Rezende (@uxunicornio)',
+        caption: 'Nielsen Norman Group Journey Map Template, traduzido por Leandro Rezende (@uxunicornio)',
       },
       { kind: 'heading', text: 'Storytelling' },
       {
@@ -1198,25 +1198,25 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Um dia, os filhos ligaram avisando que o resultado do concurso havia saído e que ela tinha passado. Feliz, Kátia precisou se organizar para separar os documentos do processo de admissão — mas, nessa etapa, fica nervosa: acha que tem muita coisa para fazer, não sabe mexer bem no computador, sente que perde muito tempo nele e se frustra por não conseguir fazer tudo sozinha.',
+        text: 'Um dia, os filhos ligaram avisando que o resultado do concurso havia saído e que ela tinha passado. Feliz, Kátia precisou se organizar para separar os documentos do processo de admissão, mas, nessa etapa, fica nervosa: acha que tem muita coisa para fazer, não sabe mexer bem no computador, sente que perde muito tempo nele e se frustra por não conseguir fazer tudo sozinha.',
       },
       {
         kind: 'paragraph',
-        text: 'Por isso, precisa sempre pedir ajuda aos filhos e, quando eles não estão em casa, recorre a terceiros e paga por esse serviço — o que a deixa preocupada em sair de casa e perder seus documentos na rua.',
+        text: 'Por isso, precisa sempre pedir ajuda aos filhos e, quando eles não estão em casa, recorre a terceiros e paga por esse serviço, o que a deixa preocupada em sair de casa e perder seus documentos na rua.',
       },
       {
         kind: 'paragraph',
-        text: 'Até que Kátia descobriu o onDoc e agora se sente segura, pois sempre tem seus documentos salvos no celular, sem medo de perdê-los fisicamente. Com a usabilidade fácil e poucas etapas para enviar seus documentos, consegue fazer tudo sozinha, sem depender de ninguém — e hoje se sente mais feliz e empoderada.',
+        text: 'Até que Kátia descobriu o onDoc e agora se sente segura, pois sempre tem seus documentos salvos no celular, sem medo de perdê-los fisicamente. Com a usabilidade fácil e poucas etapas para enviar seus documentos, consegue fazer tudo sozinha, sem depender de ninguém, e hoje se sente mais feliz e empoderada.',
       },
       { kind: 'heading', text: 'Alternativas de solução' },
       {
         kind: 'paragraph',
-        text: 'De acordo com os resultados das pesquisas e as oportunidades descritas nas jornadas de usuários, fiz uma matriz de impacto x esforço para encontrar uma possível solução de MVP — Produto Mínimo Viável — com funcionalidades simples, rápidas de desenvolver, mas que gerassem valor e pensassem nos usuários.',
+        text: 'De acordo com os resultados das pesquisas e as oportunidades descritas nas jornadas de usuários, fiz uma matriz de impacto x esforço para encontrar uma possível solução de MVP, Produto Mínimo Viável, com funcionalidades simples, rápidas de desenvolver, mas que gerassem valor e pensassem nos usuários.',
       },
       { kind: 'image', src: '/assets/articles/ondoc/07-impacto-esforco.jpeg', caption: 'Matriz Impacto x Esforço' },
       {
         kind: 'paragraph',
-        text: 'Priorizei as oportunidades no quadrante de maior prioridade — menor esforço e maior impacto: tornar a separação de documentos mais fácil, e o envio mais fácil e rápido para processos burocráticos.',
+        text: 'Priorizei as oportunidades no quadrante de maior prioridade, menor esforço e maior impacto: tornar a separação de documentos mais fácil, e o envio mais fácil e rápido para processos burocráticos.',
       },
       {
         kind: 'paragraph',
@@ -1237,7 +1237,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'A solução proposta foi o desenvolvimento do onDoc, que reúne cópias de documentos pessoais em um só aplicativo. O onDoc permite ao usuário incluir o documento por digitalização e mantê-lo armazenado para uso sempre que necessário — exportando em PDF, individualmente ou em conjunto, em um único arquivo. O aplicativo conta com a preocupação de segurança dos dados, permitindo acesso apenas com e-mail e senha cadastrados pelo usuário.',
+        text: 'A solução proposta foi o desenvolvimento do onDoc, que reúne cópias de documentos pessoais em um só aplicativo. O onDoc permite ao usuário incluir o documento por digitalização e mantê-lo armazenado para uso sempre que necessário, exportando em PDF, individualmente ou em conjunto, em um único arquivo. O aplicativo conta com a preocupação de segurança dos dados, permitindo acesso apenas com e-mail e senha cadastrados pelo usuário.',
       },
       { kind: 'heading', text: 'Business Model Canvas' },
       { kind: 'paragraph', text: 'Para melhor entendimento do projeto, criei um Business Model Canvas.' },
@@ -1253,7 +1253,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'Rabiscoframe' },
       {
         kind: 'paragraph',
-        text: 'A partir da solução escolhida, criei os primeiros rabiscoframes, que deram origem ao primeiro protótipo de baixa fidelidade testado com usuários. As próximas etapas trouxeram muitos ajustes e novas funcionalidades — aqui ficou clara a importância de testar, entender o usuário e observar suas ações.',
+        text: 'A partir da solução escolhida, criei os primeiros rabiscoframes, que deram origem ao primeiro protótipo de baixa fidelidade testado com usuários. As próximas etapas trouxeram muitos ajustes e novas funcionalidades, aqui ficou clara a importância de testar, entender o usuário e observar suas ações.',
       },
       { kind: 'image', src: '/assets/articles/ondoc/09-rabiscoframes.jpeg', caption: 'Rabiscoframes da ideação escolhida' },
       { kind: 'heading', text: 'Primeiro teste de usabilidade' },
@@ -1263,7 +1263,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'O teste mostrou o que deveria ser mantido, descartado e melhorado, além de validar as ideias priorizadas. Entre os principais feedbacks: a necessidade de uma opção para excluir documentos (incluí o ícone de lixeira), a opção de editar o nome do arquivo (antes só era possível refazer a digitalização) e, principalmente, a inclusão personalizada de documentos — antes o aplicativo dava opções fixas, mas percebi que nem todas as pessoas tinham CNH ou outros documentos específicos, então passei a permitir que cada uma personalizasse e incluísse os documentos na ordem que preferisse.',
+        text: 'O teste mostrou o que deveria ser mantido, descartado e melhorado, além de validar as ideias priorizadas. Entre os principais feedbacks: a necessidade de uma opção para excluir documentos (incluí o ícone de lixeira), a opção de editar o nome do arquivo (antes só era possível refazer a digitalização) e, principalmente, a inclusão personalizada de documentos, antes o aplicativo dava opções fixas, mas percebi que nem todas as pessoas tinham CNH ou outros documentos específicos, então passei a permitir que cada uma personalizasse e incluísse os documentos na ordem que preferisse.',
       },
       { kind: 'heading', text: 'Wireframe e fluxo do usuário' },
       {
@@ -1275,11 +1275,11 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'Styleguide' },
       {
         kind: 'paragraph',
-        text: 'Com o wireframe pronto e os fluxos definidos, chegou a hora de definir a identidade visual do aplicativo. Criei um guia de estilos para garantir unidade e consistência na experiência — visual, de usabilidade e de acessibilidade.',
+        text: 'Com o wireframe pronto e os fluxos definidos, chegou a hora de definir a identidade visual do aplicativo. Criei um guia de estilos para garantir unidade e consistência na experiência, visual, de usabilidade e de acessibilidade.',
       },
       {
         kind: 'paragraph',
-        text: 'As cores escolhidas replicam a identidade visual do logotipo (verde e azul), cada uma com duas tonalidades próximas para representar os efeitos de transição dos botões. A tipografia escolhida foi a Poppins, por ter nove pesos diferentes, um design elegante, boa legibilidade e carregamento rápido por ser uma fonte do Google. Botões e ícones seguem o padrão de cores do branding, com ícones do Material Design — de código aberto e gratuitos.',
+        text: 'As cores escolhidas replicam a identidade visual do logotipo (verde e azul), cada uma com duas tonalidades próximas para representar os efeitos de transição dos botões. A tipografia escolhida foi a Poppins, por ter nove pesos diferentes, um design elegante, boa legibilidade e carregamento rápido por ser uma fonte do Google. Botões e ícones seguem o padrão de cores do branding, com ícones do Material Design, de código aberto e gratuitos.',
       },
       {
         kind: 'image',
@@ -1294,7 +1294,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Com base no wireframe e no guia de estilos, criei um protótipo de alta fidelidade e testei com 5 pessoas — todas conseguiram concluir as tarefas solicitadas. O feedback foi que o aplicativo é simples e fácil de usar; apenas uma pessoa, entre as cinco, teve dúvida sobre o ícone de sair do aplicativo, ponto que ficou marcado para ser estudado futuramente com mais usuários.',
+        text: 'Com base no wireframe e no guia de estilos, criei um protótipo de alta fidelidade e testei com 5 pessoas, todas conseguiram concluir as tarefas solicitadas. O feedback foi que o aplicativo é simples e fácil de usar; apenas uma pessoa, entre as cinco, teve dúvida sobre o ícone de sair do aplicativo, ponto que ficou marcado para ser estudado futuramente com mais usuários.',
       },
       { kind: 'heading', text: 'Próximos passos' },
       { kind: 'paragraph', text: 'Para dar continuidade ao onDoc, algumas melhorias futuras:' },
@@ -1304,7 +1304,7 @@ export const ARTICLES: Article[] = [
           'Opção de compartilhar documentos direto do aplicativo, sem precisar baixá-los no celular',
           'Campo de busca para localizar documentos, caso o usuário tenha muitos cadastrados',
           'Opção de alterar os ícones de acordo com o documento, para melhor identificação',
-          'Escolha do formato de exportação — JPEG, PDF ou outro',
+          'Escolha do formato de exportação, JPEG, PDF ou outro',
           'Autenticação biométrica e Face ID',
           'Digitalização com mais de uma folha por documento (ex.: diploma frente e verso)',
           'Possibilidade de anexar arquivos diretamente do dispositivo',
@@ -1312,7 +1312,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'A pesquisa com usuários é essencial para a construção de qualquer solução, e entendo que não existe ponto final para um produto — sempre haverá oportunidades de melhoria. Com a implementação deste projeto no mercado, o foco continuaria no estudo da experiência do usuário, no acompanhamento de métricas para melhorias contínuas e na segurança do aplicativo.',
+        text: 'A pesquisa com usuários é essencial para a construção de qualquer solução, e entendo que não existe ponto final para um produto, sempre haverá oportunidades de melhoria. Com a implementação deste projeto no mercado, o foco continuaria no estudo da experiência do usuário, no acompanhamento de métricas para melhorias contínuas e na segurança do aplicativo.',
       },
       { kind: 'heading', text: 'Conclusão e aprendizados' },
       {
@@ -1335,7 +1335,7 @@ export const ARTICLES: Article[] = [
     bodyEn: [
       {
         kind: 'paragraph',
-        text: 'I took on the challenge of building a digital wallet app so physical documents could be replaced by digital ones without the risk of losing them — looking for a way to help people through bureaucratic processes.',
+        text: 'I took on the challenge of building a digital wallet app so physical documents could be replaced by digital ones without the risk of losing them, looking for a way to help people through bureaucratic processes.',
       },
       {
         kind: 'paragraph',
@@ -1352,11 +1352,11 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: "Most of us also rely on many other important documents — certificates, diplomas, résumés and even proof of address — that we need to carry around or send copies of to get through bureaucratic processes in Brazil, whether for school enrollment, hiring processes, renting a home, and more. It's also worth noting that many parents need to keep not only their own documents but their children's as well, up to a certain age, which multiplies the number of documents to carry.",
+        text: "Most of us also rely on many other important documents, certificates, diplomas, résumés and even proof of address, that we need to carry around or send copies of to get through bureaucratic processes in Brazil, whether for school enrollment, hiring processes, renting a home, and more. It's also worth noting that many parents need to keep not only their own documents but their children's as well, up to a certain age, which multiplies the number of documents to carry.",
       },
       {
         kind: 'paragraph',
-        text: 'With such a large number of important physical documents, loss or theft is common. Because of the pandemic, in 2020 the Brazilian postal service received more than 90,000 lost documents at its branches — in previous years, without social isolation, the average was over 170,000.',
+        text: 'With such a large number of important physical documents, loss or theft is common. Because of the pandemic, in 2020 the Brazilian postal service received more than 90,000 lost documents at its branches, in previous years, without social isolation, the average was over 170,000.',
       },
       {
         kind: 'paragraph',
@@ -1364,7 +1364,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Considering that today the phone is the main way people access the internet in the country, and already replaces some documents — work card, driver\'s license, tax ID, voter ID — but in a different app for each one, the onDoc app was created.',
+        text: 'Considering that today the phone is the main way people access the internet in the country, and already replaces some documents, work card, driver\'s license, tax ID, voter ID, but in a different app for each one, the onDoc app was created.',
       },
       { kind: 'heading', text: 'Project goal' },
       {
@@ -1373,7 +1373,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: "Through the research in this study, I observed that when people need to hand over copies of documents for some kind of registration, there's a lot of effort involved in gathering them — whether due to loss, theft, disorganization, or having to redo the copies — which creates impatience.",
+        text: "Through the research in this study, I observed that when people need to hand over copies of documents for some kind of registration, there's a lot of effort involved in gathering them, whether due to loss, theft, disorganization, or having to redo the copies, which creates impatience.",
       },
       {
         kind: 'paragraph',
@@ -1422,7 +1422,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'One of the questions aimed to validate the certainty that everyone has needed to send a copy of some document at some point — I included the option "never needed to" so as not to bias the question. Result: 100% of people had needed to send document copies for something.',
+        text: 'One of the questions aimed to validate the certainty that everyone has needed to send a copy of some document at some point, I included the option "never needed to" so as not to bias the question. Result: 100% of people had needed to send document copies for something.',
       },
       {
         kind: 'paragraph',
@@ -1438,7 +1438,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Since these are personal documents, I assumed people would be wary of using apps or saving data somewhere digital. I asked whether they used any app with sensitive personal data (banking, driver\'s license, etc.), and 97% said yes — which invalidated that assumption.',
+        text: 'Since these are personal documents, I assumed people would be wary of using apps or saving data somewhere digital. I asked whether they used any app with sensitive personal data (banking, driver\'s license, etc.), and 97% said yes, which invalidated that assumption.',
       },
       {
         kind: 'paragraph',
@@ -1447,7 +1447,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'Qualitative research' },
       {
         kind: 'paragraph',
-        text: "At this stage, I put together a semi-structured study with 4 people who'd left their contact info in the quantitative survey, conducted based on each person's availability — some in person, others over video call.",
+        text: "At this stage, I put together a semi-structured study with 4 people who'd left their contact info in the quantitative survey, conducted based on each person's availability, some in person, others over video call.",
       },
       {
         kind: 'paragraph',
@@ -1462,17 +1462,17 @@ export const ARTICLES: Article[] = [
         items: [
           "You mentioned you've needed a number or piece of information from a document and didn't have it on hand. Do you remember a specific time that happened? Could you tell me about it?",
           "Is there a particular reason you don't carry these documents with you? Did you solve that problem in some way?",
-          "You said you've had to gather and send copies of documents for hiring processes — could you describe how you went about that task?",
+          "You said you've had to gather and send copies of documents for hiring processes, could you describe how you went about that task?",
         ],
       },
       { kind: 'paragraph', text: 'Some interesting answers:' },
       {
         kind: 'list',
         items: [
-          '"I remember needing my PIS number, which is on my work card, to check whether I was entitled to a payment on Caixa\'s website. I was really stressed in the moment, because I live in another city and my work card was at my mom\'s house — I had to wait for her to find it and send me a photo of the number."',
-          '"I don\'t like carrying a lot of documents, cash or credit cards, for safety reasons — because if I lose a document, it\'s a huge hassle to get a replacement. Also out of necessity, I rarely need my work card with me."',
-          '"I don\'t like carrying them because I\'m afraid of being robbed or losing them. I once lost my wallet with everything inside — it was a lot of work redoing every document, and I was scared someone would use my information."',
-          '"Right now I keep my documents as photos on my phone, but whenever I need one I end up searching for a while — it takes some time."',
+          '"I remember needing my PIS number, which is on my work card, to check whether I was entitled to a payment on Caixa\'s website. I was really stressed in the moment, because I live in another city and my work card was at my mom\'s house, I had to wait for her to find it and send me a photo of the number."',
+          '"I don\'t like carrying a lot of documents, cash or credit cards, for safety reasons, because if I lose a document, it\'s a huge hassle to get a replacement. Also out of necessity, I rarely need my work card with me."',
+          '"I don\'t like carrying them because I\'m afraid of being robbed or losing them. I once lost my wallet with everything inside, it was a lot of work redoing every document, and I was scared someone would use my information."',
+          '"Right now I keep my documents as photos on my phone, but whenever I need one I end up searching for a while, it takes some time."',
           '"It\'s always a hassle, because I\'m not great with computers; whenever I need to send that kind of documentation, I have to ask my kids to do it for me."',
         ],
       },
@@ -1488,7 +1488,7 @@ export const ARTICLES: Article[] = [
       { kind: 'image', src: '/assets/articles/ondoc/05-persona.jpeg', caption: 'Persona: Kátia Silva' },
       {
         kind: 'paragraph',
-        text: 'Based on the research results, this project focused on a single persona to better represent one specific solution — though the qualitative research suggests the project could extend to other user profiles in the future.',
+        text: 'Based on the research results, this project focused on a single persona to better represent one specific solution, though the qualitative research suggests the project could extend to other user profiles in the future.',
       },
       { kind: 'heading', text: "Kátia's journey map" },
       {
@@ -1498,7 +1498,7 @@ export const ARTICLES: Article[] = [
       {
         kind: 'image',
         src: '/assets/articles/ondoc/06-journey-map.jpeg',
-        caption: 'Nielsen Norman Group Journey Map Template — translated by Leandro Rezende (@uxunicornio)',
+        caption: 'Nielsen Norman Group Journey Map Template, translated by Leandro Rezende (@uxunicornio)',
       },
       { kind: 'heading', text: 'Storytelling' },
       {
@@ -1511,25 +1511,25 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: "One day, her kids called to tell her the exam results were out and that she'd passed. Happy, Kátia needed to get organized and gather the documents for the hiring process — but at this stage, she gets nervous: she feels like there's too much to do, doesn't know her way around computers well, feels like she wastes a lot of time on them, and gets frustrated at not being able to handle it all on her own.",
+        text: "One day, her kids called to tell her the exam results were out and that she'd passed. Happy, Kátia needed to get organized and gather the documents for the hiring process, but at this stage, she gets nervous: she feels like there's too much to do, doesn't know her way around computers well, feels like she wastes a lot of time on them, and gets frustrated at not being able to handle it all on her own.",
       },
       {
         kind: 'paragraph',
-        text: "So she always has to ask her kids for help, and when they're not home, she turns to a third party and pays for the service — which worries her about leaving the house and losing her documents out and about.",
+        text: "So she always has to ask her kids for help, and when they're not home, she turns to a third party and pays for the service, which worries her about leaving the house and losing her documents out and about.",
       },
       {
         kind: 'paragraph',
-        text: 'Until Kátia discovered onDoc and now feels secure, since she always has her documents saved on her phone, with no fear of losing them physically. With easy usability and just a few steps to send her documents, she can do everything on her own, without depending on anyone — and today she feels happier and more empowered.',
+        text: 'Until Kátia discovered onDoc and now feels secure, since she always has her documents saved on her phone, with no fear of losing them physically. With easy usability and just a few steps to send her documents, she can do everything on her own, without depending on anyone, and today she feels happier and more empowered.',
       },
       { kind: 'heading', text: 'Solution alternatives' },
       {
         kind: 'paragraph',
-        text: 'Based on the research results and the opportunities described in the user journeys, I built an impact-versus-effort matrix to find a possible MVP solution — a Minimum Viable Product — with simple features that were quick to build but still delivered value and kept users in mind.',
+        text: 'Based on the research results and the opportunities described in the user journeys, I built an impact-versus-effort matrix to find a possible MVP solution, a Minimum Viable Product, with simple features that were quick to build but still delivered value and kept users in mind.',
       },
       { kind: 'image', src: '/assets/articles/ondoc/07-impacto-esforco.jpeg', caption: 'Impact x Effort Matrix' },
       {
         kind: 'paragraph',
-        text: 'I prioritized the opportunities in the highest-priority quadrant — lowest effort and highest impact: making it easier to gather documents, and easier and faster to send them for bureaucratic processes.',
+        text: 'I prioritized the opportunities in the highest-priority quadrant, lowest effort and highest impact: making it easier to gather documents, and easier and faster to send them for bureaucratic processes.',
       },
       {
         kind: 'paragraph',
@@ -1550,7 +1550,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'The proposed solution was building onDoc, which brings together copies of personal documents in a single app. onDoc lets the user add a document by scanning it and keep it stored for whenever it\'s needed — exporting as PDF, individually or together, in a single file. The app is built with data security in mind, allowing access only with an email and password registered by the user.',
+        text: 'The proposed solution was building onDoc, which brings together copies of personal documents in a single app. onDoc lets the user add a document by scanning it and keep it stored for whenever it\'s needed, exporting as PDF, individually or together, in a single file. The app is built with data security in mind, allowing access only with an email and password registered by the user.',
       },
       { kind: 'heading', text: 'Business Model Canvas' },
       { kind: 'paragraph', text: 'To better understand the project, I built a Business Model Canvas.' },
@@ -1566,7 +1566,7 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'Rough sketches' },
       {
         kind: 'paragraph',
-        text: 'Based on the chosen solution, I created the first rough sketches, which led to the first low-fidelity prototype tested with users. The next steps brought a lot of adjustments and new features — this is where it became clear how important it is to test, understand the user, and observe their actions.',
+        text: 'Based on the chosen solution, I created the first rough sketches, which led to the first low-fidelity prototype tested with users. The next steps brought a lot of adjustments and new features, this is where it became clear how important it is to test, understand the user, and observe their actions.',
       },
       { kind: 'image', src: '/assets/articles/ondoc/09-rabiscoframes.jpeg', caption: 'Rough sketches from the chosen ideation' },
       { kind: 'heading', text: 'First usability test' },
@@ -1576,7 +1576,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: "The test showed what should be kept, dropped or improved, and validated the prioritized ideas. Among the main feedback: the need for an option to delete documents (I added a trash icon), the option to edit a file's name (previously you could only redo the scan), and, most notably, custom document entry — the app used to offer only fixed options, but I realized not everyone had a driver's license or other specific documents, so I let each person customize and add documents in whatever order they preferred.",
+        text: "The test showed what should be kept, dropped or improved, and validated the prioritized ideas. Among the main feedback: the need for an option to delete documents (I added a trash icon), the option to edit a file's name (previously you could only redo the scan), and, most notably, custom document entry, the app used to offer only fixed options, but I realized not everyone had a driver's license or other specific documents, so I let each person customize and add documents in whatever order they preferred.",
       },
       { kind: 'heading', text: 'Wireframe and user flow' },
       {
@@ -1588,11 +1588,11 @@ export const ARTICLES: Article[] = [
       { kind: 'heading', text: 'Style guide' },
       {
         kind: 'paragraph',
-        text: "With the wireframe ready and the flows defined, it was time to define the app's visual identity. I built a style guide to ensure consistency across the experience — visual, usability and accessibility.",
+        text: "With the wireframe ready and the flows defined, it was time to define the app's visual identity. I built a style guide to ensure consistency across the experience, visual, usability and accessibility.",
       },
       {
         kind: 'paragraph',
-        text: "The chosen colors mirror the logo's visual identity (green and blue), each with two close shades to represent button transition effects. The chosen typeface was Poppins, for its nine different weights, elegant design, good legibility and fast loading as a Google font. Buttons and icons follow the branding's color scheme, with Material Design icons — open-source and free.",
+        text: "The chosen colors mirror the logo's visual identity (green and blue), each with two close shades to represent button transition effects. The chosen typeface was Poppins, for its nine different weights, elegant design, good legibility and fast loading as a Google font. Buttons and icons follow the branding's color scheme, with Material Design icons, open-source and free.",
       },
       {
         kind: 'image',
@@ -1607,7 +1607,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: 'Based on the wireframe and style guide, I built a high-fidelity prototype and tested it with 5 people — all of them completed the requested tasks. The feedback was that the app is simple and easy to use; only one out of the five was unsure about the icon for exiting the app, a point flagged to be studied further with more users in the future.',
+        text: 'Based on the wireframe and style guide, I built a high-fidelity prototype and tested it with 5 people, all of them completed the requested tasks. The feedback was that the app is simple and easy to use; only one out of the five was unsure about the icon for exiting the app, a point flagged to be studied further with more users in the future.',
       },
       { kind: 'heading', text: 'Next steps' },
       { kind: 'paragraph', text: 'To keep evolving onDoc, some future improvements:' },
@@ -1617,7 +1617,7 @@ export const ARTICLES: Article[] = [
           'Option to share documents directly from the app, without needing to download them to the phone',
           'Search field to locate documents, in case the user has registered many',
           'Option to change icons based on the document, for easier identification',
-          'Choice of export format — JPEG, PDF or other',
+          'Choice of export format, JPEG, PDF or other',
           'Biometric authentication and Face ID',
           'Scanning documents with more than one page (e.g., diploma front and back)',
           'Ability to attach files directly from the device',
@@ -1625,7 +1625,7 @@ export const ARTICLES: Article[] = [
       },
       {
         kind: 'paragraph',
-        text: "User research is essential to building any solution, and I understand there's no real finish line for a product — there will always be room for improvement. If this project were implemented in the market, the focus would remain on studying the user experience, tracking metrics for continuous improvement, and app security.",
+        text: "User research is essential to building any solution, and I understand there's no real finish line for a product, there will always be room for improvement. If this project were implemented in the market, the focus would remain on studying the user experience, tracking metrics for continuous improvement, and app security.",
       },
       { kind: 'heading', text: 'Conclusion and takeaways' },
       {

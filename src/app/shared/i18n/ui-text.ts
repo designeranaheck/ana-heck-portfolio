@@ -22,12 +22,12 @@ export const UI_TEXT = {
   // Sobre / About
   aboutKicker: { pt: 'Sobre', en: 'About' },
   aboutTitle: {
-    pt: 'Design é entender o problema antes de desenhar a tela.',
-    en: 'Design means understanding the problem before drawing the screen.',
+    pt: 'Design é entender o problema\nantes de desenhar a tela.',
+    en: 'Design means understanding the problem\nbefore drawing the screen.',
   },
   aboutLead: {
-    pt: 'Tenho 15 anos de experiência e atuação end-to-end no ciclo de produto — de Product Discovery e UX Research a prototipação, testes e entrega. Já liderei squads de design, conduzi workshops estratégicos com diretoria e mentorei outros designers, sempre conectando decisões de UX a métricas de negócio. Atuei em varejo, fintechs, ERPs B2B e gestão pública, e hoje também sou professora de UX Design, formando a próxima geração de designers.',
-    en: "I have 15 years of experience and end-to-end ownership of the product cycle — from Product Discovery and UX Research to prototyping, testing and delivery. I've led design squads, run strategic workshops with leadership, and mentored other designers, always connecting UX decisions to business metrics. I've worked across retail, fintech, B2B ERPs and public administration, and today I also teach UX Design, training the next generation of designers.",
+    pt: 'Tenho 15 anos de experiência e atuação end-to-end no ciclo de produto, de Product Discovery e UX Research a prototipação, testes e entrega. Já liderei squads de design, conduzi workshops estratégicos com diretoria e mentorei outros designers, sempre conectando decisões de UX a métricas de negócio. Atuei em varejo, fintechs, ERPs B2B e gestão pública, e hoje também sou professora de UX Design, formando a próxima geração de designers.',
+    en: "I have 15 years of experience and end-to-end ownership of the product cycle, from Product Discovery and UX Research to prototyping, testing and delivery. I've led design squads, run strategic workshops with leadership, and mentored other designers, always connecting UX decisions to business metrics. I've worked across retail, fintech, B2B ERPs and public administration, and today I also teach UX Design, training the next generation of designers.",
   },
   aboutPhotoPrimaryAlt: { pt: 'Ana Heck conduzindo um workshop presencial', en: 'Ana Heck leading an in-person workshop' },
   aboutPhotoSecondaryAlt: { pt: 'Ana Heck em uma mesa-redonda sobre carreira', en: 'Ana Heck at a panel discussion about career' },
