@@ -73,6 +73,9 @@ export class Home implements AfterViewInit, OnDestroy {
 
   protected readonly activePhoto = signal<0 | 1>(0);
 
+  protected readonly experienceAtStart = signal(true);
+  protected readonly experienceAtEnd = signal(false);
+
   private readonly years = signal(0);
   protected readonly yearsDisplay = computed(() => `+${this.years()} ${this.i18n.t('heroYearsSuffix')}`);
 
@@ -107,6 +110,9 @@ export class Home implements AfterViewInit, OnDestroy {
         this.activePhoto.update((current) => (current === 0 ? 1 : 0));
       }, PHOTO_CROSSFADE_INTERVAL);
     }
+
+    this.updateExperienceScrollState();
+    window.addEventListener('resize', this.updateExperienceScrollState);
   }
 
   ngOnDestroy(): void {
@@ -117,11 +123,19 @@ export class Home implements AfterViewInit, OnDestroy {
     if (this.photoTimer !== undefined) {
       clearInterval(this.photoTimer);
     }
+    window.removeEventListener('resize', this.updateExperienceScrollState);
   }
 
   protected scrollExperiences(direction: -1 | 1): void {
     this.experienceTrack().nativeElement.scrollBy({ left: direction * 400, behavior: 'smooth' });
   }
+
+  protected readonly updateExperienceScrollState = (): void => {
+    const el = this.experienceTrack().nativeElement;
+    const maxScroll = el.scrollWidth - el.clientWidth;
+    this.experienceAtStart.set(el.scrollLeft <= 1);
+    this.experienceAtEnd.set(maxScroll <= 1 || el.scrollLeft >= maxScroll - 1);
+  };
 
   private animateCounters(): void {
     const start = performance.now();

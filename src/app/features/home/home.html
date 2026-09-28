@@ -69,16 +69,30 @@
         <h2 class="section-title section-title--sm">{{ i18n.t('experiencesTitle') }}</h2>
       </div>
       <div class="experiences__controls">
-        <button type="button" (click)="scrollExperiences(-1)" [attr.aria-label]="i18n.t('experiencesPrevAria')">
+        <button
+          type="button"
+          (click)="scrollExperiences(-1)"
+          [attr.aria-label]="i18n.t('experiencesPrevAria')"
+          [disabled]="experienceAtStart()"
+        >
           ←
         </button>
-        <button type="button" (click)="scrollExperiences(1)" [attr.aria-label]="i18n.t('experiencesNextAria')">
+        <button
+          type="button"
+          (click)="scrollExperiences(1)"
+          [attr.aria-label]="i18n.t('experiencesNextAria')"
+          [disabled]="experienceAtEnd()"
+        >
           →
         </button>
       </div>
     </div>
 
-    <div #experienceTrack class="experiences__track no-scrollbar">
+    <div
+      #experienceTrack
+      class="experiences__track no-scrollbar"
+      (scroll)="updateExperienceScrollState()"
+    >
       @for (experience of experiences(); track experience.role) {
         <app-experience-card class="experiences__card" [experience]="experience" />
       }
