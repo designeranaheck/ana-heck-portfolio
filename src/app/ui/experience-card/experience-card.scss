@@ -6,6 +6,11 @@
   display: flex;
   align-items: flex-start;
   gap: 20px;
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 
 .experience-card__photo {
@@ -29,6 +34,12 @@
     height: 100%;
     object-fit: cover;
   }
+
+  @media (max-width: 640px) {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+  }
 }
 
 .experience-card__body {
@@ -36,6 +47,10 @@
   flex-direction: column;
   gap: 8px;
   padding: 16px 0;
+
+  @media (max-width: 640px) {
+    padding: 0;
+  }
 }
 
 .experience-card__role {
