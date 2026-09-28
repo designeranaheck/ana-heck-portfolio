@@ -29,12 +29,28 @@
   gap: 24px;
   padding-top: 10px;
   width: 100%;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
 
 .contact__channel {
   display: flex;
   flex-direction: column;
   gap: 8px;
+
+  @media (max-width: 640px) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      'icon label'
+      'icon value';
+    column-gap: 14px;
+    row-gap: 2px;
+    align-items: center;
+  }
 }
 
 .contact__icon {
@@ -51,25 +67,40 @@
     width: 18px;
     height: 18px;
   }
+
+  @media (max-width: 640px) {
+    grid-area: icon;
+    width: 36px;
+    height: 36px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
 }
 
 .contact__label {
   font-weight: 600;
   font-size: 14px;
   color: var(--accent);
-}
 
-.contact__hint {
-  font-size: 12px;
-  opacity: 0.7;
+  @media (max-width: 640px) {
+    grid-area: label;
+  }
 }
 
 .contact__value {
   font-weight: 600;
   font-size: 13px;
   color: var(--text);
+  word-break: break-word;
 
   &:hover {
     color: var(--accent-hover);
+  }
+
+  @media (max-width: 640px) {
+    grid-area: value;
   }
 }

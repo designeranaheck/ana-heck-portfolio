@@ -56,11 +56,8 @@ export const UI_TEXT = {
   contactKicker: { pt: 'Contato', en: 'Contact' },
   contactTitle: { pt: 'Vamos conversar?', en: "Let's talk?" },
   contactEmailLabel: { pt: 'E-mail', en: 'Email' },
-  contactEmailHint: { pt: 'Tem alguma dúvida?', en: 'Have a question?' },
   contactWhatsappLabel: { pt: 'WhatsApp', en: 'WhatsApp' },
-  contactWhatsappHint: { pt: 'Pode falar a qualquer hora.', en: 'Feel free to reach out anytime.' },
   contactResumeLabel: { pt: 'Currículo', en: 'Resume' },
-  contactResumeHint: { pt: 'Quer ver com calma?', en: 'Want to look it over?' },
   contactResumeValue: { pt: 'Baixar PDF', en: 'Download PDF' },
 
   // Footer
