@@ -292,6 +292,11 @@
 .experiences__card {
   flex: 0 0 380px;
   min-width: 320px;
+
+  @media (max-width: 640px) {
+    flex: 0 0 82%;
+    min-width: 0;
+  }
 }
 
 /* Formação acadêmica */
@@ -300,7 +305,9 @@
   flex-direction: column;
   gap: 32px;
   padding: var(--section-y) var(--gutter);
-  background: var(--bg-alt);
+  background:
+    radial-gradient(120% 140% at 100% 0%, rgba(145, 132, 217, 0.14) 0%, transparent 55%),
+    var(--bg-alt);
 }
 
 .formation__timeline {
@@ -331,7 +338,7 @@
 .formation__period {
   padding-bottom: 14px;
   font-size: 13px;
-  opacity: 0.6;
+  color: var(--accent-hover);
   font-variant-numeric: tabular-nums;
 }
 
@@ -367,7 +374,9 @@
   height: 10px;
   border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 0 4px var(--bg-alt);
+  box-shadow:
+    0 0 0 4px var(--bg-alt),
+    0 0 14px 3px rgba(145, 132, 217, 0.45);
 }
 
 .formation__main {
@@ -471,6 +480,16 @@
   box-shadow: inset 0 0 0 1px var(--border-soft);
 }
 
+.testimonial-card__mark {
+  display: block;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 44px;
+  line-height: 1;
+  color: var(--accent);
+  text-shadow: 0 0 20px rgba(145, 132, 217, 0.35);
+  margin-bottom: 4px;
+}
+
 .testimonial-card__quote {
   margin: 0;
   font-size: 15px;
@@ -483,6 +502,8 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  padding-top: 16px;
+  box-shadow: inset 0 1px 0 rgba(145, 132, 217, 0.35);
 }
 
 .testimonial-card__meta {

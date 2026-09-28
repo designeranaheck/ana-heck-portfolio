@@ -145,7 +145,10 @@
     <div class="testimonials__grid">
       @for (item of testimonials(); track item.name) {
         <article class="testimonial-card" appReveal [style.transition-delay.ms]="$index * 80">
-          <p class="testimonial-card__quote">"{{ item.quote }}"</p>
+          <div>
+            <span class="testimonial-card__mark" aria-hidden="true">&ldquo;</span>
+            <p class="testimonial-card__quote">{{ item.quote }}</p>
+          </div>
           <div class="testimonial-card__author">
             <div class="testimonial-card__meta">
               <span class="testimonial-card__name">{{ item.name }}</span>
