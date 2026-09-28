@@ -188,6 +188,10 @@
   max-width: clamp(240px, 32vw, 340px);
   padding-bottom: clamp(36px, 7vw, 56px);
   padding-left: clamp(28px, 4vw, 40px);
+
+  @media (min-width: 641px) and (max-width: 1024px) {
+    display: none;
+  }
 }
 
 .about__photo-primary {
@@ -468,6 +472,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;
+
+  @media (max-width: 1024px) {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+  }
 }
 
 .testimonial-card {
@@ -478,6 +489,14 @@
   padding: 28px;
   border-radius: 16px;
   box-shadow: inset 0 0 0 1px var(--border-soft);
+
+  @media (max-width: 1024px) {
+    flex: 0 0 82%;
+  }
+
+  @media (min-width: 641px) and (max-width: 1024px) {
+    flex: 0 0 360px;
+  }
 }
 
 .testimonial-card__mark {
