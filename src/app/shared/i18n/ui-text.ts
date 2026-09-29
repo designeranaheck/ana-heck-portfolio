@@ -9,14 +9,14 @@ export const UI_TEXT = {
   heroBadge: { pt: 'Disponível · Remoto', en: 'Available · Remote' },
   heroTitle: { pt: 'Transformando complexidade em clareza', en: 'Turning complexity into clarity' },
   heroLead: {
-    pt: 'Sênior Product Designer especializada em transformar problemas complexos de varejo, consumo e fintech em produtos simples, usáveis e orientados a dados.',
-    en: 'Senior Product Designer specialized in turning complex retail, consumer and fintech problems into simple, usable, data-informed products.',
+    pt: 'Sênior Product Designer especializada em transformar problemas complexos em produtos simples, claros e escaláveis, conectando discovery, pesquisa e estratégia de produto.',
+    en: 'Senior Product Designer specialized in turning complex problems into simple, clear and scalable products, connecting discovery, research and product strategy.',
   },
   heroCtaProjects: { pt: 'Ver projetos', en: 'View work' },
   heroCtaContact: { pt: 'Falar comigo', en: 'Get in touch' },
   heroStatYearsLabel: { pt: 'de experiência em design', en: 'of experience in design' },
-  heroStatSeniorValue: { pt: 'Sênior', en: 'Senior' },
-  heroStatSeniorLabel: { pt: 'atuando com discovery e design system', en: 'working across discovery and design systems' },
+  heroStatSeniorValue: { pt: 'Discovery → Delivery', en: 'Discovery → Delivery' },
+  heroStatSeniorLabel: { pt: 'da estratégia à implementação', en: 'from strategy to implementation' },
   heroYearsSuffix: { pt: 'anos', en: 'years' },
 
   // Sobre / About
@@ -31,6 +31,11 @@ export const UI_TEXT = {
   },
   aboutPhotoPrimaryAlt: { pt: 'Ana Heck conduzindo um workshop presencial', en: 'Ana Heck leading an in-person workshop' },
   aboutPhotoSecondaryAlt: { pt: 'Ana Heck em uma mesa-redonda sobre carreira', en: 'Ana Heck at a panel discussion about career' },
+
+  // Últimos projetos
+  latestProjectsKicker: { pt: 'Projetos', en: 'Projects' },
+  latestProjectsTitle: { pt: 'Últimos projetos', en: 'Latest projects' },
+  latestProjectsCta: { pt: 'Ver todos os projetos', en: 'View all projects' },
 
   // Experiências
   experiencesKicker: { pt: 'Experiências profissionais', en: 'Professional experience' },

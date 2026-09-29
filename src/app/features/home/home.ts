@@ -19,11 +19,13 @@ import { ScrollToTop } from '../../shared/directives/scroll-to-top';
 import { EXPERIENCES } from '../../shared/data/experiences';
 import { CERTIFICATIONS, EDUCATION } from '../../shared/data/education';
 import { TESTIMONIALS } from '../../shared/data/testimonials';
+import { ARTICLES } from '../../shared/data/articles';
 import { LanguageService } from '../../shared/i18n/language.service';
 
 const COUNT_DURATION = 1200;
 const TARGET_YEARS = 15;
 const PHOTO_CROSSFADE_INTERVAL = 4500;
+const LATEST_PROJECTS_COUNT = 3;
 
 @Component({
   selector: 'app-home',
@@ -43,6 +45,17 @@ export class Home implements AfterViewInit, OnDestroy {
       period: en ? item.periodEn : item.period,
       badge: en ? item.badgeEn : item.badge,
       description: en ? item.descriptionEn : item.description,
+    }));
+  });
+
+  protected readonly latestProjects = computed(() => {
+    const en = this.i18n.lang() === 'en';
+    return ARTICLES.slice(0, LATEST_PROJECTS_COUNT).map((article) => ({
+      slug: article.slug,
+      kicker: en ? article.kickerEn : article.kicker,
+      title: en ? article.listTitleEn : article.listTitle,
+      excerpt: en ? article.listExcerptEn : article.listExcerpt,
+      cover: article.cover,
     }));
   });
 
