@@ -1,7 +1,12 @@
 <header class="site-header">
   <a class="brand" routerLink="/">
-    <span class="brand__name">Ana Heck</span>
-    <span class="brand__role">{{ i18n.t('brandRole') }}</span>
+    <span class="brand__avatar">
+      <img src="/assets/hero/video-a.png" alt="" />
+    </span>
+    <span class="brand__text">
+      <span class="brand__name">Ana Heck</span>
+      <span class="brand__role">{{ i18n.t('brandRole') }}</span>
+    </span>
   </a>
 
   <nav class="nav">
@@ -9,12 +14,26 @@
       {{ i18n.t('navSobre') }}
     </a>
     <a routerLink="/portfolio" [class.is-active]="isPortfolioActive()">{{ i18n.t('navPortfolio') }}</a>
-    <a class="nav__cta" [routerLink]="['/']" fragment="contato">{{ i18n.t('navCta') }}</a>
-    <button
-      type="button"
-      class="lang-switch"
-      [attr.aria-label]="i18n.t('langSwitchAria')"
-      (click)="i18n.setLang(i18n.lang() === 'pt' ? 'en' : 'pt')"
-    >{{ i18n.lang() === 'pt' ? 'EN' : 'PT' }}</button>
+    <a [routerLink]="['/']" fragment="contato">{{ i18n.t('navContact') }}</a>
+    <div class="lang-switch" [class.is-open]="langMenuOpen()">
+      @if (langMenuOpen()) {
+        @for (l of otherLangs(); track l) {
+          <button type="button" class="lang-switch__option" (click)="pickLang(l)">{{ l.toUpperCase() }}</button>
+        }
+      }
+      <button
+        type="button"
+        class="lang-switch__current"
+        aria-haspopup="true"
+        [attr.aria-expanded]="langMenuOpen()"
+        [attr.aria-label]="i18n.t('langSwitchAria')"
+        (click)="langMenuOpen.set(!langMenuOpen())"
+      >
+        {{ i18n.lang().toUpperCase() }}
+        <svg class="lang-switch__caret" viewBox="0 0 10 6" fill="none" aria-hidden="true">
+          <path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
   </nav>
 </header>

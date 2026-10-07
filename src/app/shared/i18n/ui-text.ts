@@ -3,17 +3,20 @@ export const UI_TEXT = {
   brandRole: { pt: 'Sênior Product Designer', en: 'Senior Product Designer' },
   navSobre: { pt: 'Sobre', en: 'About' },
   navPortfolio: { pt: 'Portfolio', en: 'Portfolio' },
-  navCta: { pt: 'Vamos conversar', en: "Let's talk" },
+  navContact: { pt: 'Contato', en: 'Contact' },
 
   // Hero
   heroBadge: { pt: 'Disponível · Remoto', en: 'Available · Remote' },
-  heroTitle: { pt: 'Transformando complexidade em clareza', en: 'Turning complexity into clarity' },
+  heroTitlePre: { pt: 'Transformando', en: 'Turning' },
+  heroTitleAccent: { pt: 'complexidade', en: 'complexity' },
+  heroTitlePost: { pt: 'em clareza', en: 'into clarity' },
   heroLead: {
     pt: 'Sênior Product Designer especializada em transformar problemas complexos em produtos simples, claros e escaláveis, conectando discovery, pesquisa e estratégia de produto.',
     en: 'Senior Product Designer specialized in turning complex problems into simple, clear and scalable products, connecting discovery, research and product strategy.',
   },
   heroCtaProjects: { pt: 'Ver projetos', en: 'View work' },
   heroCtaContact: { pt: 'Falar comigo', en: 'Get in touch' },
+  heroCtaResume: { pt: 'Baixar currículo', en: 'Download resume' },
   heroStatYearsLabel: { pt: 'de experiência em design', en: 'of experience in design' },
   heroStatSeniorValue: { pt: 'Discovery → Delivery', en: 'Discovery → Delivery' },
   heroStatSeniorLabel: { pt: 'da estratégia à implementação', en: 'from strategy to implementation' },
@@ -59,7 +62,9 @@ export const UI_TEXT = {
 
   // Contato
   contactKicker: { pt: 'Contato', en: 'Contact' },
-  contactTitle: { pt: 'Vamos conversar?', en: "Let's talk?" },
+  contactTitlePre: { pt: 'Vamos', en: "Let's" },
+  contactTitleAccent: { pt: 'conversar?', en: 'talk?' },
+  contactCtaEmail: { pt: 'Enviar e-mail', en: 'Send email' },
   contactEmailLabel: { pt: 'E-mail', en: 'Email' },
   contactWhatsappLabel: { pt: 'WhatsApp', en: 'WhatsApp' },
   contactResumeLabel: { pt: 'Currículo', en: 'Resume' },

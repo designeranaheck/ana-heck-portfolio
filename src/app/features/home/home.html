@@ -24,10 +24,19 @@
     </div>
 
     <div class="hero__bottom">
-      <h1 class="hero__giant-title">{{ i18n.t('heroTitle') }}</h1>
+      <h1 class="hero__giant-title">
+        {{ i18n.t('heroTitlePre') }}
+        <span class="hero__accent">{{ i18n.t('heroTitleAccent') }}</span>
+        {{ i18n.t('heroTitlePost') }}
+      </h1>
       <p class="hero__lead">{{ i18n.t('heroLead') }}</p>
       <div class="hero__actions">
-        <a class="btn-outline btn-outline--accent" routerLink="/portfolio">{{ i18n.t('heroCtaProjects') }}</a>
+        <a class="btn-solid" routerLink="/portfolio">{{ i18n.t('heroCtaProjects') }}</a>
+        <a
+          class="btn-outline"
+          href="/assets/curriculo/ana-heck-curriculo.pdf"
+          download="Ana-Heck-Curriculo.pdf"
+        >{{ i18n.t('heroCtaResume') }}</a>
         <a class="btn-outline" [routerLink]="['/']" fragment="contato">{{ i18n.t('heroCtaContact') }}</a>
       </div>
 
@@ -42,22 +51,6 @@
           <span class="hero__stat-value">{{ i18n.t('heroStatSeniorValue') }}</span>
           <span class="hero__stat-label">{{ i18n.t('heroStatSeniorLabel') }}</span>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="sobre" class="about">
-    <div class="about__content" appReveal>
-      <span class="kicker kicker--accent">{{ i18n.t('aboutKicker') }}</span>
-      <h2 class="about__title">{{ i18n.t('aboutTitle') }}</h2>
-      <p class="about__lead">{{ i18n.t('aboutLead') }}</p>
-    </div>
-    <div class="about__photo" appReveal>
-      <div class="about__photo-primary">
-        <img src="/assets/about/about.jpeg" [alt]="i18n.t('aboutPhotoPrimaryAlt')" />
-      </div>
-      <div class="about__photo-secondary">
-        <img src="/assets/about/about_2.jpeg" [alt]="i18n.t('aboutPhotoSecondaryAlt')" />
       </div>
     </div>
   </section>
@@ -84,6 +77,22 @@
           </div>
         </a>
       }
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content" appReveal>
+      <span class="kicker kicker--accent">{{ i18n.t('aboutKicker') }}</span>
+      <h2 class="about__title">{{ i18n.t('aboutTitle') }}</h2>
+      <p class="about__lead">{{ i18n.t('aboutLead') }}</p>
+    </div>
+    <div class="about__photo" appReveal>
+      <div class="about__photo-primary">
+        <img src="/assets/about/about.jpeg" [alt]="i18n.t('aboutPhotoPrimaryAlt')" />
+      </div>
+      <div class="about__photo-secondary">
+        <img src="/assets/about/about_2.jpeg" [alt]="i18n.t('aboutPhotoSecondaryAlt')" />
+      </div>
     </div>
   </section>
 

@@ -16,11 +16,26 @@
 
 .contact__title {
   margin: 0;
-  max-width: 760px;
-  font-weight: 500;
-  font-size: clamp(24px, 3vw, 34px);
-  line-height: 1.15;
-  letter-spacing: -0.03em;
+  max-width: 900px;
+  font-weight: 600;
+  font-size: clamp(40px, 7vw, 88px);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.contact__accent {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--accent-hover);
+}
+
+.contact__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px 0 18px;
 }
 
 .contact__grid {
