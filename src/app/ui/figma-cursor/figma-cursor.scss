@@ -30,15 +30,20 @@
 
 .cursor__label {
   position: absolute;
-  top: 16px;
-  left: 14px;
-  padding: 3px 9px;
-  border-radius: 4px 12px 12px 12px;
+  top: 18px;
+  left: 12px;
+  padding: 3px 8px;
+  border-radius: 0;
   background: var(--accent);
-  color: var(--bg);
+  color: #fff;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 16px;
   white-space: nowrap;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: padding 0.2s ease, font-size 0.2s ease;
+}
+
+:host(.is-action) .cursor__label {
+  padding: 4px 10px;
+  font-size: 13px;
 }

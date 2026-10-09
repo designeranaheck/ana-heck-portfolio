@@ -66,7 +66,7 @@
 
     <div class="projects__row no-scrollbar">
       @for (project of latestProjects(); track project.slug) {
-        <a class="project-card" [routerLink]="['/artigos', project.slug]" appReveal>
+        <a class="project-card" [routerLink]="['/artigos', project.slug]" [attr.data-cursor]="i18n.t('cursorViewCase')" appReveal>
           <div class="project-card__cover">
             <img [src]="project.cover" [alt]="project.title" loading="lazy" decoding="async" />
           </div>
@@ -83,7 +83,10 @@
   <section id="sobre" class="about">
     <div class="about__content" appReveal>
       <span class="kicker kicker--accent">{{ i18n.t('aboutKicker') }}</span>
-      <h2 class="about__title">{{ i18n.t('aboutTitle') }}</h2>
+      <div class="about__head">
+        <h2 class="about__title">{{ i18n.t('aboutTitle') }}</h2>
+        <p class="postit">{{ i18n.t('aboutNote') }}<small>{{ i18n.t('aboutNoteSign') }}</small></p>
+      </div>
       <p class="about__lead">{{ i18n.t('aboutLead') }}</p>
     </div>
     <div class="about__photo" appReveal>

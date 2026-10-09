@@ -4,8 +4,24 @@
   <header class="page-header portfolio__header">
     <a class="back-link" routerLink="/">{{ i18n.t('backToHome') }}</a>
     <span class="kicker kicker--accent">{{ i18n.t('portfolioKicker') }}</span>
-    <h1 class="portfolio__title">Ana Heck</h1>
+    <h1 class="portfolio__title">{{ i18n.t('portfolioTitle') }}</h1>
     <p class="portfolio__lead">{{ i18n.t('portfolioLead') }}</p>
+    <div class="stickies" aria-hidden="true">
+      <div class="sticky sticky--a">
+        <p>{{ i18n.t('stickyDiscover') }}</p>
+        <span>{{ i18n.t('stickyAuthorAna') }}</span>
+      </div>
+      <div class="sticky sticky--b">
+        <p>{{ i18n.t('stickyTest') }}</p>
+        <span>{{ i18n.t('stickyAuthorResearch') }}</span>
+      </div>
+      <div class="sticky sticky--c">
+        <p>{{ i18n.t('stickyClarity') }}</p>
+        <span>{{ i18n.t('stickyAuthorProduct') }}</span>
+      </div>
+      <div class="cur cur--a"><svg class="cur__arrow" viewBox="0 0 20 22" fill="none"><path d="M2.2 1.4a.8.8 0 0 1 1.3-.6l13.6 10.7a.8.8 0 0 1-.5 1.4l-6.1.3a.8.8 0 0 0-.7.5l-2.1 5.8a.8.8 0 0 1-1.5-.1L2.2 1.4Z" fill="currentColor" stroke="#fff" stroke-width="1.4" stroke-linejoin="round" /></svg><b>{{ i18n.t('stickyAuthorProduct') }}</b></div>
+      <div class="cur cur--b"><svg class="cur__arrow" viewBox="0 0 20 22" fill="none"><path d="M2.2 1.4a.8.8 0 0 1 1.3-.6l13.6 10.7a.8.8 0 0 1-.5 1.4l-6.1.3a.8.8 0 0 0-.7.5l-2.1 5.8a.8.8 0 0 1-1.5-.1L2.2 1.4Z" fill="currentColor" stroke="#fff" stroke-width="1.4" stroke-linejoin="round" /></svg><b>{{ i18n.t('stickyAuthorResearch') }}</b></div>
+    </div>
   </header>
 
   <div class="portfolio__panel">
@@ -14,6 +30,7 @@
         <a
           class="article-card"
           [routerLink]="['/artigos', article.slug]"
+          [attr.data-cursor]="i18n.t('cursorViewCase')"
           appReveal
           [style.transition-delay.ms]="i % 3 * 80"
         >
@@ -21,19 +38,37 @@
             <img [src]="article.cover" [alt]="article.listTitle" loading="lazy" decoding="async" />
           </div>
           <div class="article-card__body">
-            <div class="article-card__head">
-              <span class="article-card__title">{{ article.listTitle }}</span>
+            <div class="article-card__meta">
+              <span class="article-card__tag">{{ article.kicker }}</span>
               <span class="article-card__date">{{ article.listDate }}</span>
             </div>
+            <h3 class="article-card__title">{{ article.listTitle }}</h3>
             <p class="article-card__excerpt">{{ article.listExcerpt }}</p>
-            <div class="article-card__tags">
-              <span class="tag">{{ article.kicker }}</span>
-            </div>
           </div>
         </a>
       }
     </div>
   </div>
+  <section class="tools" appReveal>
+    <div class="section-intro">
+      <span class="kicker kicker--accent">{{ i18n.t('toolsKicker') }}</span>
+      <h2 class="section-title section-title--sm">{{ i18n.t('toolsTitle') }}</h2>
+    </div>
+    <ul class="tools__list">
+      @for (tool of tools; track tool.name) {
+        <li class="tools__pill">
+          <span
+            class="tools__icon"
+            [style.background-color]="tool.color"
+            [style.mask-image]="'url(/assets/tools/' + tool.icon + '.svg)'"
+            [style.-webkit-mask-image]="'url(/assets/tools/' + tool.icon + '.svg)'"
+            aria-hidden="true"
+          ></span>
+          {{ tool.name }}
+        </li>
+      }
+    </ul>
+  </section>
 </main>
 
 <app-site-footer />

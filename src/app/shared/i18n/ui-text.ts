@@ -32,6 +32,16 @@ export const UI_TEXT = {
     pt: 'Tenho 15 anos de experiência e atuação end-to-end no ciclo de produto, de Product Discovery e UX Research a prototipação, testes e entrega. Já liderei squads de design, conduzi workshops estratégicos com diretoria e mentorei outros designers, sempre conectando decisões de UX a métricas de negócio. Atuei em varejo, fintechs, ERPs B2B e gestão pública, e hoje também sou professora de UX Design, formando a próxima geração de designers.',
     en: "I have 15 years of experience and end-to-end ownership of the product cycle, from Product Discovery and UX Research to prototyping, testing and delivery. I've led design squads, run strategic workshops with leadership, and mentored other designers, always connecting UX decisions to business metrics. I've worked across retail, fintech, B2B ERPs and public administration, and today I also teach UX Design, training the next generation of designers.",
   },
+  stickyDiscover: { pt: 'Descobrir antes de desenhar', en: 'Discover before designing' },
+  stickyTest: { pt: 'Testamos com usuários?', en: 'Did we test with users?' },
+  stickyClarity: { pt: 'Menos telas, mais clareza!', en: 'Fewer screens, more clarity!' },
+  stickyAuthorAna: { pt: 'Ana', en: 'Ana' },
+  stickyAuthorResearch: { pt: 'Pesquisa', en: 'Research' },
+  stickyAuthorProduct: { pt: 'Produto', en: 'Product' },
+  toolsKicker: { pt: 'Ferramentas', en: 'Tools' },
+  toolsTitle: { pt: 'Ferramentas que uso no dia a dia', en: 'Tools I use every day' },
+  aboutNote: { pt: 'Entender, testar e simplificar.', en: 'Understand, test, simplify.' },
+  aboutNoteSign: { pt: '- Ana', en: '- Ana' },
   aboutPhotoPrimaryAlt: { pt: 'Ana Heck conduzindo um workshop presencial', en: 'Ana Heck leading an in-person workshop' },
   aboutPhotoSecondaryAlt: { pt: 'Ana Heck em uma mesa-redonda sobre carreira', en: 'Ana Heck at a panel discussion about career' },
 
@@ -76,6 +86,7 @@ export const UI_TEXT = {
   // Portfolio page
   backToHome: { pt: '← Voltar para a home', en: '← Back to home' },
   portfolioKicker: { pt: 'Portfolio', en: 'Portfolio' },
+  portfolioTitle: { pt: 'Projetos', en: 'Projects' },
   portfolioLead: {
     pt: 'Sênior Product Designer na Betha Sistemas · Artigos e estudos de caso sobre discovery, pesquisa e produto.',
     en: 'Senior Product Designer at Betha Sistemas · Articles and case studies on discovery, research and product.',
@@ -84,6 +95,9 @@ export const UI_TEXT = {
   // Artigo (detail page)
   backToPortfolio: { pt: '← Voltar para o portfólio', en: '← Back to portfolio' },
   otherArticles: { pt: 'Outros artigos', en: 'More articles' },
+
+  // Cursor
+  cursorViewCase: { pt: 'Ver case', en: 'View case' },
 
   // Language switcher
   langSwitchAria: { pt: 'Alternar idioma', en: 'Switch language' },
