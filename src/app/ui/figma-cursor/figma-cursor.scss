@@ -1,0 +1,44 @@
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  will-change: transform;
+}
+
+:host(.is-visible) {
+  opacity: 1;
+}
+
+.cursor {
+  position: relative;
+  color: var(--accent);
+  transition: transform 0.12s ease;
+}
+
+:host(.is-pressed) .cursor {
+  transform: scale(0.88);
+}
+
+.cursor__arrow {
+  display: block;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.35));
+}
+
+.cursor__label {
+  position: absolute;
+  top: 16px;
+  left: 14px;
+  padding: 3px 9px;
+  border-radius: 4px 12px 12px 12px;
+  background: var(--accent);
+  color: var(--bg);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}

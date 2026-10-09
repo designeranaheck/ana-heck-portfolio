@@ -1,0 +1,58 @@
+@if (open()) {
+  <section class="chat" role="dialog" [attr.aria-label]="i18n.t('chatTitle')">
+    <header class="chat__header">
+      <div>
+        <strong class="chat__title">{{ i18n.t('chatTitle') }}</strong>
+        <span class="chat__subtitle">{{ i18n.t('chatSubtitle') }}</span>
+      </div>
+      <button type="button" class="chat__close" [attr.aria-label]="i18n.t('chatClose')" (click)="open.set(false)">
+        <svg viewBox="0 0 14 14" fill="none" aria-hidden="true">
+          <path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+        </svg>
+      </button>
+    </header>
+
+    <div class="chat__log" #log aria-live="polite">
+      <p class="chat__msg chat__msg--bot">{{ i18n.t('chatIntro') }}</p>
+      @for (m of messages(); track $index) {
+        <p class="chat__msg" [class.chat__msg--user]="m.role === 'user'" [class.chat__msg--bot]="m.role === 'assistant'">{{ m.content }}</p>
+      }
+      @if (loading()) {
+        <p class="chat__msg chat__msg--bot chat__typing" aria-hidden="true"><i></i><i></i><i></i></p>
+      }
+      @if (messages().length === 0) {
+        <div class="chat__suggestions">
+          @for (s of suggestions(); track s) {
+            <button type="button" class="chat__chip" (click)="send(s)">{{ s }}</button>
+          }
+        </div>
+      }
+    </div>
+
+    <form class="chat__form" (submit)="submit($event)">
+      <input
+        class="chat__input"
+        type="text"
+        maxlength="500"
+        autocomplete="off"
+        [placeholder]="i18n.t('chatPlaceholder')"
+        [attr.aria-label]="i18n.t('chatPlaceholder')"
+        [value]="draft()"
+        (input)="draft.set($any($event.target).value)"
+      />
+      <button type="submit" class="chat__send" [disabled]="loading() || !draft().trim()" [attr.aria-label]="i18n.t('chatSend')">
+        <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M2 8h11M9 3.5L13.5 8 9 12.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </form>
+    <p class="chat__disclaimer">{{ i18n.t('chatDisclaimer') }}</p>
+  </section>
+}
+
+<button type="button" class="chat-fab" [class.is-open]="open()" [attr.aria-expanded]="open()" (click)="open.set(!open())">
+  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+    <path d="M10 1.5l1.9 5.1 5.1 1.9-5.1 1.9L10 15.5l-1.9-5.1L3 8.5l5.1-1.9L10 1.5zM16 13l.8 2.2L19 16l-2.2.8L16 19l-.8-2.2L13 16l2.2-.8L16 13z" />
+  </svg>
+  <span>{{ i18n.t('chatOpen') }}</span>
+</button>

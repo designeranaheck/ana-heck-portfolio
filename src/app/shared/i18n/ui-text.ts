@@ -1,7 +1,7 @@
 export const UI_TEXT = {
   // Header / nav
   brandRole: { pt: 'Sênior Product Designer', en: 'Senior Product Designer' },
-  navSobre: { pt: 'Sobre', en: 'About' },
+  navSobre: { pt: 'Home', en: 'Home' },
   navPortfolio: { pt: 'Portfolio', en: 'Portfolio' },
   navContact: { pt: 'Contato', en: 'Contact' },
 
@@ -87,4 +87,24 @@ export const UI_TEXT = {
 
   // Language switcher
   langSwitchAria: { pt: 'Alternar idioma', en: 'Switch language' },
+
+  // Chat
+  chatOpen: { pt: 'Pergunte à Ana', en: 'Ask Ana' },
+  chatClose: { pt: 'Fechar chat', en: 'Close chat' },
+  chatTitle: { pt: 'Pergunte à Ana', en: 'Ask Ana' },
+  chatSubtitle: { pt: 'Assistente de IA treinado no portfólio dela', en: 'AI assistant trained on her portfolio' },
+  chatIntro: {
+    pt: 'Oi! Posso responder sobre a trajetória, os cases e a experiência da Ana. O que você quer saber?',
+    en: "Hi! I can answer questions about Ana's career, case studies and experience. What would you like to know?",
+  },
+  chatSuggestion1: { pt: 'Qual é a experiência da Ana com pesquisa?', en: "What is Ana's experience with research?" },
+  chatSuggestion2: { pt: 'Me conte sobre um case de destaque', en: 'Tell me about a standout case study' },
+  chatSuggestion3: { pt: 'Ela já liderou times?', en: 'Has she led teams?' },
+  chatPlaceholder: { pt: 'Digite sua pergunta', en: 'Type your question' },
+  chatSend: { pt: 'Enviar', en: 'Send' },
+  chatError: {
+    pt: 'Não consegui responder agora. Tente de novo em instantes ou fale direto com a Ana pelo e-mail anaheckk@gmail.com.',
+    en: "I couldn't answer right now. Try again in a moment or email Ana directly at anaheckk@gmail.com.",
+  },
+  chatDisclaimer: { pt: 'Respostas geradas por IA, podem conter erros.', en: 'AI-generated answers, may contain errors.' },
 } as const;

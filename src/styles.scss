@@ -1,3 +1,8 @@
 @import 'styles/bootstrap';
 @import 'styles/theme';
 @import 'styles/primitives';
+
+html.has-figma-cursor,
+html.has-figma-cursor * {
+  cursor: none !important;
+}

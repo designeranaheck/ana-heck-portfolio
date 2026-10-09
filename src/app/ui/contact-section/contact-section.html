@@ -1,18 +1,9 @@
 <div id="contato" class="contact__card" appReveal>
   <span class="contact__kicker">{{ i18n.t('contactKicker') }}</span>
-  <h2 class="contact__title">
+  <h2 class="section-title section-title--sm">
     {{ i18n.t('contactTitlePre') }}
     <span class="contact__accent">{{ i18n.t('contactTitleAccent') }}</span>
   </h2>
-
-  <div class="contact__actions">
-    <a class="btn-solid" href="mailto:anaheckk@gmail.com">{{ i18n.t('contactCtaEmail') }}</a>
-    <a
-      class="btn-outline"
-      href="/assets/curriculo/ana-heck-curriculo.pdf"
-      download="Ana-Heck-Curriculo.pdf"
-    >{{ i18n.t('heroCtaResume') }}</a>
-  </div>
 
   <div class="contact__grid">
     @for (channel of channels(); track $index) {
