@@ -48,7 +48,7 @@ for (const a of ARTICLES) {
 
 const text = lines.join('\n');
 writeFileSync(
-  'api/_knowledge.ts',
-  `// Arquivo gerado por scripts/generate-knowledge.mjs. Não edite manualmente.\nexport const KNOWLEDGE = ${JSON.stringify(text)};\n`,
+  'api/_knowledge.js',
+  `// Arquivo gerado por scripts/generate-knowledge.mjs. Não edite manualmente.\nmodule.exports = { KNOWLEDGE: ${JSON.stringify(text)} };\n`,
 );
-console.log(`api/_knowledge.ts: ${text.length} caracteres`);
+console.log(`api/_knowledge.js: ${text.length} caracteres`);

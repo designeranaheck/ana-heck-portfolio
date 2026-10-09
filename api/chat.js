@@ -1,18 +1,4 @@
-import { KNOWLEDGE } from './_knowledge';
-
-interface Req {
-  method?: string;
-  body?: unknown;
-  headers: Record<string, string | string[] | undefined>;
-}
-interface Res {
-  status(code: number): Res;
-  json(body: unknown): void;
-}
-interface ChatMessage {
-  role: 'user' | 'assistant';
-  content: string;
-}
+const { KNOWLEDGE } = require('./_knowledge');
 
 const MODEL = 'claude-haiku-5-5';
 const MAX_MESSAGES = 8;
@@ -20,7 +6,7 @@ const MAX_CHARS = 500;
 const RATE_LIMIT = 20;
 const RATE_WINDOW_MS = 10 * 60 * 1000;
 
-const hits = new Map<string, number[]>();
+const hits = new Map();
 
 const SYSTEM = `Você é o assistente do portfólio de Ana Heck, Sênior Product Designer com 15 anos de experiência. Você responde perguntas de recrutadores, gestores e curiosos sobre a trajetória e o trabalho dela.
 
@@ -40,7 +26,7 @@ Currículo em PDF: https://anaheck.vercel.app/assets/curriculo/ana-heck-curricul
 
 ${KNOWLEDGE}`;
 
-function rateLimited(ip: string): boolean {
+function rateLimited(ip) {
   const now = Date.now();
   const recent = (hits.get(ip) ?? []).filter((t) => now - t < RATE_WINDOW_MS);
   recent.push(now);
@@ -48,21 +34,21 @@ function rateLimited(ip: string): boolean {
   return recent.length > RATE_LIMIT;
 }
 
-function parseMessages(body: unknown): ChatMessage[] | null {
-  const raw = (body as { messages?: unknown })?.messages;
+function parseMessages(body) {
+  const raw = body?.messages;
   if (!Array.isArray(raw) || raw.length === 0) return null;
   const messages = raw.slice(-MAX_MESSAGES).map((m) => ({
-    role: m?.role === 'assistant' ? ('assistant' as const) : ('user' as const),
+    role: m?.role === 'assistant' ? 'assistant' : 'user',
     content: String(m?.content ?? '').slice(0, MAX_CHARS),
   }));
   if (messages[0].role !== 'user' || messages.at(-1)?.role !== 'user') return null;
   return messages.every((m) => m.content.trim()) ? messages : null;
 }
 
-export default async function handler(req: Req, res: Res): Promise<void> {
+module.exports = async function handler(req, res) {
   if (req.method !== 'POST') return void res.status(405).json({ error: 'method_not_allowed' });
 
-  const key = process.env['ANTHROPIC_API_KEY'];
+  const key = process.env.ANTHROPIC_API_KEY;
   if (!key) return void res.status(503).json({ error: 'not_configured' });
 
   const ip = String(req.headers['x-forwarded-for'] ?? 'unknown').split(',')[0].trim();
@@ -88,7 +74,7 @@ export default async function handler(req: Req, res: Res): Promise<void> {
     });
     if (!upstream.ok) return void res.status(502).json({ error: 'upstream_error' });
 
-    const data = (await upstream.json()) as { content?: { type: string; text?: string }[] };
+    const data = await upstream.json();
     const reply = data.content?.find((c) => c.type === 'text')?.text?.trim();
     if (!reply) return void res.status(502).json({ error: 'empty_reply' });
     res.status(200).json({ reply });
